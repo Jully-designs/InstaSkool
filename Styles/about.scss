@@ -1,0 +1,73 @@
+@import "mixins";
+
+.about-nav{
+    background-color: rgba(5, 81, 167, 0.4);
+    position: relative;
+    height: 100vh;
+    .abt-navbar{
+        margin: 0 5vw;
+        padding: 5vh 0;
+        .navbar-brand{
+            a{
+                img{
+                    width: 15vw;
+                    height: 10vh;
+                }
+            }
+        }
+        ul{
+            li{
+                a{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+.about-us{
+    margin: 3vh 15vw;
+    color: #FFFFFF;
+    h1{
+        @include about-headers;
+    }
+    p{
+        margin-bottom: 2vh;
+        line-height: 1.4;
+    }
+}
+.calendar{
+    h1{
+        @include about-headers;
+    }
+}
+.contact{
+    h1{
+        @include about-headers;
+    }
+    p{
+        text-align: center;
+        color: $pryColor;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+}
+.custom-shape-divider-bottom-1640212813 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1640212813 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1640212813 .shape-fill {
+    fill: #FFFFFF;
+}

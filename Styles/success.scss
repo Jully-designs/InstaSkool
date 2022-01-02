@@ -1,0 +1,14 @@
+@import "mixins";
+
+.success-body{
+    width: 98.5vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    .success-section{
+        @include successStyle;
+    }
+    .error-section{
+        @include successStyle($color: rgb(233, 61, 61));
+    }
+}

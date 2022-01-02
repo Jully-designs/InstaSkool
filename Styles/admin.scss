@@ -1,0 +1,125 @@
+@import "mixins";
+
+.dash-main{
+    .dash{
+        .admin-dash{
+            .admin-main{
+                @include rowDisplayFlex;
+                .admin-left-side{
+                    .info{
+                        @include rowDisplayFlex;
+                        justify-content: space-between;
+                        width: 53vw;
+                        margin: 7vh 0 2vh 5vw;
+                        .students{
+                            background-color:#EA7327;
+                            @include admin-top-panel;
+                        }
+                        .teachers{
+                            background-color: #EB001B;
+                            @include admin-top-panel;
+                        }
+                        .videos{
+                            background-color: #0551A7;
+                           @include admin-top-panel;
+                        }
+                        .classes{
+                            background-color: #9ABE21;
+                            @include admin-top-panel;
+                        }
+                    }
+                    .statistics{
+                        @include rowDisplayFlex;
+                        margin: 0 1vw 0 3vw;
+                        @include statistics-chart;
+                        width: 57vw;
+                    }
+                }
+                .admin-profile{
+                    text-align: center;
+                    margin: 8vh 0;
+                    width: 20vw;
+                    height: 57vh;
+                    @include admin-dash;
+                    h4{
+                      padding: 5vh 0;
+                    }
+                    img{
+                        margin: 2vh 0;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                    button{
+                        width: 15vw;
+                        margin-top: 3vh;
+                        padding: 2vh 3vw;
+                        border-radius: 10px;
+                        border: none;
+                        i{
+                            padding-left: 1vw;
+                        }
+                    }
+                }
+            }
+            .reviews{
+                @include rowDisplayFlex;
+                margin: 2vh 3vw;
+                .feedback{
+                    @include feedback-features;
+                    p:nth-of-type(1){
+                        padding: 3vh 0;
+                        font-size: 12px;
+                    }
+                    p:nth-of-type(2),p:nth-of-type(4){
+                        padding: 10px 0;
+                        margin-left: 20vw;
+                        font-size: 14px;
+                        color: #0551A7;
+                        a{
+                            text-decoration: none;
+                            color: #0551A7;
+                        }
+                    }
+                    p:nth-of-type(3){
+                        padding: 3vh 0;
+                        font-size: 12px;
+                    }
+                    blockquote{
+                        width: 30vw;
+                        padding-left: 2vw;
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                }
+                .features{
+                   @include feedback-features;
+                    .row-1{
+                        @include rowDisplayFlex;
+                        .upload, .add-teacher{
+                            margin: 3vh 3vw;
+                            figure{
+                                @include admin-figure;
+                            }
+                            p{
+                                margin-top: 2vh;
+                            }
+                        }
+                    }
+                    .row-2{
+                        @include rowDisplayFlex;
+                        .edit, .add-event{
+                            margin: 2vh 3.2vw;
+                            figure{
+                                @include admin-figure;
+                            }
+                            p{
+                                margin-top: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

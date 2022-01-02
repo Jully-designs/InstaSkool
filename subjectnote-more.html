@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- fontsawesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="dash-header">
+        <nav class="nav-dash">
+            <div class="navbar-brand">
+                <section class="menu-bar">
+                    <div class="menu-icon">
+                        <span style="font-size:30px;cursor:pointer">&#9776;</span>
+                    </div>
+                </section>
+                <a href=""><img src="./Images/Instaskool Logo.png" alt=""></a>
+            </div>
+            <div class="dash-acct">
+                <img src="./Images/Icons/notification.png" alt="">
+                <img src="./Images/admin-img.png" alt="" class="profile-img">
+                <p>Account</p>
+                <img src="./Images/Icons/caret.png"  class="fas" onclick="shwContent()" alt="">
+                <div class="logout-drpdwn">
+                    <a href=""><p>My Profile</p></a>
+                    <a href=""><p>Log Out</p></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="dash-main">
+        <section class="dash">
+            <div class="sidenav">
+               <span class="closebtn">&times;</span>
+                <ul>
+                    <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href=""><img src="./Images/Icons/virtual-class.png" alt=""></i>Virtual Class</a></li>
+                    <li><a href=""><img src="./Images/Icons/note-icon.png" alt=""></i>Class Notes</a></li>
+                    <li><a href=""><img src="./Images/Icons/class-video.png" alt="">Class Videos</a></li>
+                    <li><a href=""><i class="far fa-comment-alt"></i>Forum</a></li>
+                    <li class="settings"><a href=""><img src="./Images/Icons/settings.png" alt=""></i>Settings</a></li>
+                </ul>
+            </div>
+            <div class="dash-body class-dash-video class-dash-note">
+                <div class="video-header">
+                    <div class="box"></div>
+                    <h1>English</h1>
+                </div>
+
+                <div class="instructor-details">
+                    <img src="Images/tutor-4.png" alt="">
+                    <div class="details">
+                        <h3>Stephanie Calcrick</h3>
+                        <p>English Tutor</p>
+                    </div>
+                </div>
+                <div class="subject-intro">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet lorem augue donec iaculis lectus ac. 
+                        Ultrices proin nunc penatibus proin felis sit. Penatibus non scelerisque leo integer est magna viverra. 
+                        Mauris eget ultricies morbi duis purus quam at ultrices urna. Convallis gravida eros urna, nibh est nunc vitae orci. 
+                        Risus, vitae est, odio aliquam. At sollicitudin tincidunt elit enim pharetra. 
+                        Turpis ipsum suspendisse viverra dis vestibulum diam id maecenas risus. Sed nibh nec, purus eu accumsan, 
+                        ultricies non magna ut. 
+                    </p>
+                </div>
+                <div class="term-headers">
+                    <a href=""><h2>1st Term</h2></a>
+                    <a href=""><h2>2nd Term</h2></a>
+                    <a href=""><h2>3rd Term</h2></a>
+                </div>
+                <div class="search">
+                    <input type="search" name="" id="" placeholder="Search for any topic">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <h3>Week 1</h3>
+                <hr>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <h3>Week 2</h3>
+                <hr>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/English.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/Mathematics.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="card-top">
+                            <img src="Images/quantitative.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Eget interdum quis tristique cursus. Bibendum nunc potenti est ...
+                            </p>
+                            <a href="" atributes-list download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="JS/index.js"></script>
+    </main>
+</body>

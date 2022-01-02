@@ -1,0 +1,115 @@
+@import "mixins";
+
+.signup, .login{
+    background: linear-gradient(121.59deg, rgba(5, 81, 167, 0) -6.24%, rgba(5, 81, 167, 0.29) 53.02%, rgba(5, 81, 167, 0) 87.97%), url("../Images/—Pngtree—blue\ watercolor\ brush\ paint\ isolated_5827678\ 1.png");
+    .signup-body{
+        margin: 30px 40px;
+        background-color: $whiteColor;
+        box-shadow: 0px 5px 20px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        .navbar-brand{
+            margin: 0 50px;
+            padding-top: 20px;
+        }
+        .signup-intro{
+            @include rowDisplayFlex;
+            justify-content: space-between;
+            margin: 30px;
+            .create-acct{
+                margin-left: 60px;
+                p{
+                    color: $pryColor;
+                    font-weight: 500;
+                    font-size: 20px;
+                    padding: 20px;
+                }
+            }
+            .existing-user{
+                .existing{
+                    padding-right: 60px;
+                    p{
+                        a{
+                            color: #16AE09;
+                        }
+                    }
+                }
+            }
+        }
+        #form-body{
+            @include rowDisplayFlex;
+            .add-image{
+                p{
+                   color: $pryColor;
+                   font-weight: 500;
+                   margin: 1vh 3vw 1vh 10vw;
+                }
+                .image-add{
+                    border: solid 2px $pryColor;
+                    padding: 2vh 2vw;
+                    width: 15vw;
+                    height: 25vh;
+                    max-height: 25vh;
+                    margin: 5vh 3vw 5vh 7vw;
+                    border-radius: 20px;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 4vw;
+                        }
+                    }
+                    input{
+                        position: absolute;
+                        top: 56vh;
+                        width: 10vw;
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        form{
+            margin: 20px 0 0 0;
+            input{
+                width: 40%;
+                margin: 10px 30px;
+                padding: 2vh 2vw;
+                border-radius: 40px;
+                border: solid 2px $pryColor;
+            }
+            :-ms-placeholder{
+                padding: 0 4vw;
+            }
+            .submit{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                padding: 0 0 10px 0;
+                div{
+                    flex-grow: 7;
+                    button{
+                        @include blueButton;
+                        position: absolute;
+                        margin-top: 2vh;
+                        left: 620px;
+                        padding:  10px 50px;
+                    }
+                }
+                p{
+                    flex-grow: 3;
+                    width: 80px;
+                    margin-right: 130px;
+                    text-align: justify;
+                }
+            }
+            .google{
+                padding: 0 0 20px 0;
+                margin: 0 16vw;
+                p{
+                    a{
+                        color: #AE1309;
+                    }
+                }
+            }
+        }
+    }
+}

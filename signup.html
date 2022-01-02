@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- fontsawesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+</head>
+<body class="signup">
+    <section class="signup-body">
+        <div class="navbar-brand">
+            <a href="#"><img src="Images/Instaskool Logo.png" alt=""></a>
+        </div>
+
+        <section class="signup-intro">
+            <div class="create-acct">
+                <p>Create your account</p>
+            </div>
+            <div class="existing-user">
+                <div class="existing">
+                    <p>Already a user? <a href="">Login</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="form-body">
+            <div class="add-image">
+                <div class="image-add">
+                    <label for="upload-image">
+                        <img src="./Images/plus.png" alt="">
+                    </label>
+                    <input type="file" name="" id="upload-image" accept="image/*">
+                </div>
+                <p>Add Image</p>
+            </div>
+            <form action="" method="" class="form">
+                <input type="text" name="" placeholder="First Name">
+                <input type="password" name="" placeholder="Password">
+                <input type="text" name="" placeholder="Last Name">
+                <input type="password" name="" placeholder="Confirm Password">
+                <input type="email" name="" placeholder="Email">
+                <input type="text" name="" placeholder="Date of Birth (mm/dd/yyyy)" onfocus="(this.type = 'Date')" onblur="(this.type='text')">
+                <input type="text" name="" placeholder="Username">
+                <input type="text" name="" placeholder="Phone Number">
+
+                <div class="submit">
+                    <div>
+                        <button type="submit" name="submit">Submit</button>
+                    </div>
+                    <p>By clicking the “Sign Up” button, you
+                        are creating an Instaskool account, 
+                        and you agree to Instaskool’s 
+                        <a href="">Terms of Use</a> and <a href="">Privacy Policy.</a></p>
+                </div>
+                <div class="google">
+                    <p>Or continue with <a href="">Google</a></p>
+                </div>
+            </form>
+        </section>
+        <!-- <section class="signup-end">
+
+        </section> -->
+    </section>
+</body>
+</html>

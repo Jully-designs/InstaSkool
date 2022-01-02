@@ -1,0 +1,236 @@
+@import "variables";
+
+@mixin rowDisplayFlex {
+    display: flex;
+    flex-direction: row;
+}
+@mixin columnDisplayFlex {
+    display: flex;
+    flex-direction: column;
+}
+@mixin hoverButton($color: $whiteColor){
+    background-color: $whiteColor;
+    color: $color;
+    border: solid 1px $color;
+}
+@mixin whiteButton{
+    border-style: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: $pryColor;
+    background-color: $whiteColor;
+    font-size: 18px;
+    transition: background-color 0.5s linear;
+    width: 15vw;
+}
+@mixin blueButton{
+    border-style: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: $whiteColor;
+    background-color: $pryColor;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+    width: 12vw;
+    &:hover{
+        @include hoverButton($color: $pryColor);
+    }
+}
+@mixin orangeButton{
+    color: $whiteColor;
+    background-color: #EA7327;
+    border-radius: 40px;
+    font-size: 18px;
+    transition: background-color 0.5s linear;
+    width: 15vw;
+    &:hover{
+        @include hoverButton($color: #EA7327);
+    }
+}
+@mixin classVideoHeader{
+    h1{
+        margin: 20px 20px 10px 20px;
+    }
+    hr{
+        width: 10vw;
+        margin: 0 2vw 4vh 2vw;
+        border: solid 2px $pryColor;
+    }
+}
+@mixin cards{
+    background-color: $whiteColor;
+    width: 50vw;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+@mixin dropdown-design{
+    @include rowDisplayFlex;
+    justify-content: space-between;
+}
+@mixin admin-dash{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    background-color: $whiteColor;
+}
+@mixin admin-figure{
+    border: solid 1px $pryColor;
+    width: 8vw;
+    height: 12vh;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+@mixin statistics-chart{
+    .bar-chart{
+        width: 27vw;
+        height: 40vh;
+        margin: 0 0 5vh 2vw;
+        padding: 30px 20px;
+        @include admin-dash;
+        h4{
+            padding-bottom: 15px;
+        }
+    }
+    .pie-chart{
+        width: 27vw;
+        height: 40vh;
+        margin: 0 0 5vh 2vw;
+        @include admin-dash;
+        @include rowDisplayFlex;
+        h4{
+            padding: 30px 20px 20px 20px;
+        }
+        .line{
+            margin-top: 3vh;
+        }
+    }
+}
+@mixin feedback-features{
+    @include admin-dash;
+    margin: 0 0 5vh 2vw;
+    width: 36vw;
+    height: 60vh;
+    padding: 30px;
+    h3{
+        padding-bottom: 15px;
+    }
+}
+@mixin admin-top-panel{
+    border-radius: 20px;
+    width: 14vw;
+    height: 15vh;
+    margin-right: 1vw;
+    padding: 12px 10px 0 15px;
+    opacity: 0.8;
+    p{
+        margin-left: 1vw;
+    }
+    h5{
+        font-size: 24px;
+        font-weight: 700;
+        margin: 12px 10px 0 0;
+        img{
+            margin-right: 0.5vw;
+        }
+    }
+    i{
+        color: $whiteColor;
+        font-size: 30px;
+        margin-left: 7vw;
+        margin-top: -50px;
+    }
+}
+
+@mixin admin-top-smaller {
+    width: 20vw;
+    height: 15vh;
+    margin-right: 0.5vw;
+    i{
+        margin: -55px 0 0 10vw;
+        font-size: 24px;
+    }
+}
+@mixin mobile-chart{
+    .bar-chart{
+        width: 100%;
+    }
+    .pie-chart{
+        width: 100%;
+        #donutChart{
+            width: 30vw !important;
+            height: 25vh !important;
+            margin: 0 5vw;
+        }
+        #lineChart{
+            width: 40vw !important;
+            height: 37vh !important;
+            margin-left: -2vw;
+        }
+    }
+}
+@mixin mobile-feedback{
+    width: 90vw;
+    margin: 20px;
+    padding: 40px 15px;
+    margin: 0 0 5vh 2vw;
+    height: 65vh;
+}
+@mixin admin-figure-mobile{
+    border: solid 1px $pryColor;
+    width: 25vw;
+    height: 12vh;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+@mixin successStyle($color: rgb(15, 194, 15)){
+    background-color: $whiteColor;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 50vw;
+    text-align: center;
+    padding: 2vh 0;
+    i{
+        font-size: 52px;
+        margin-top: 7vh;
+        color: $color;
+    }
+    p:first-of-type{
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 2vh;
+        padding: 5vh 0;
+    }
+    a{
+        button{
+            margin: 6vh 0;
+            width: 10vw;
+            padding: 1vh 2vw;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: $color;
+            color: $whiteColor;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}
+@mixin successStyle-small(){
+    width: 85vw;
+    padding: 2vh 2vw;
+    margin-top: 3vh;
+    a{
+        button{
+            margin: 6vh 0;
+            width: 40vw;
+            padding: 1vh 3vw;
+        }
+    }
+}
+@mixin about-headers{
+    text-align: center;
+    color: rgba(5, 81, 167, 1);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 3vh;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- fontsawesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="dash-header">
+        <nav class="nav-dash teacher-dash">
+            <div class="navbar-brand">
+                <a href=""><img src="./Images/Instaskool Logo.png" alt=""></a>
+            </div>
+            <div class="dash-acct video-upload">
+                <img src="./Images/admin-img.png" alt="" class="profile-img" id="profile-img">
+                <p>Account</p>
+                <img src="./Images/Icons/caret.png"  class="fas" onclick="openTeacherNav()" alt="">
+            </div>
+            <div class="teacher-drpdwn">
+                <span class="closebtn" onclick="closeTeacherNav()">&times;</span>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <hr>
+                    <li><a href="">Dashboard</a></li>
+                    <hr>
+                    <li><a href="">Payments & Subscription</a></li>
+                    <hr>
+                    <li><a href="">Subjects</a></li>
+                    <hr>
+                    <li><a href="">Live Classes</a></li>
+                    <hr>
+                    <li><a href="">Notes & Videos</a></li>
+                    <hr>
+                    <li><a href="">Logout</a></li>
+                    <hr>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="upload-body">
+        <p>Select the video file you want to upload</p>
+        <div class="upload">
+            <img src="./Images/upload.png" alt="">
+            <p>Drag or drop a video file <br/> or</p>
+            <button>Browse
+                <input type="file" name="" id="">
+            </button>
+        </div>
+        <div class="upload-info">
+            <input type="text" placeholder="Video name" class="upload-details">
+            <label for="upload">Upload<i class="fas fa-upload"></i></label>
+            <span>
+                <input type="text" placeholder="No files chosen">
+            </span>
+            <input type="file" name="" id="upload">
+        </div>
+        <div class="upload-description">
+            <input type="text" placeholder="Description" id="upload-description">
+        </div>
+        <div class="upload-button">
+            <button>Upload Video</button>
+        </div>
+    </main>
+    <script src="JS/index.js"></script>
+</body>

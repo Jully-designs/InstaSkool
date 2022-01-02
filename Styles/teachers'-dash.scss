@@ -1,0 +1,187 @@
+@import "mixins";
+
+.teacher-dash{
+    background-image: url("../Images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .teacher-drpdwn{
+        display: none;
+        ul{
+            list-style-type: none;
+            hr{
+                width: 19vw;
+                color: $whiteColor;
+            }
+            li{
+                padding: 4vh 2vw;
+                a{
+                    text-decoration: none;
+                    color: $whiteColor;
+                }
+            }
+        }
+        .closebtn{
+            display: block;
+            margin: 3vh 30vw 0 2vw;
+            font-size: 48px;
+            font-weight: 600;
+            color: $whiteColor;
+            cursor: pointer;
+        }
+    }
+    .teacher-show{
+        height: 100%;
+        width: 300px;
+        position: fixed;
+        display: block;
+        z-index: 1;
+        top: -20px;
+        padding: 10px 20px;
+        right: 0;
+        background-color: #618DE0;
+        border-radius: 0px 0px 0px 130px;
+        background: #618DE0;
+        opacity: 0.8;
+        box-shadow: 0px -10px 15px 10px rgba(0, 0, 0, 0.25);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+}
+main{
+    background-image: url("../Images/teacher-dash.png");
+    .teacher-intro{
+        @include rowDisplayFlex;
+        padding: 15vh 10vw;
+        margin-top: 10vh;
+        .teacher-details{
+            width: 40vw;
+            margin: 5vh 5vw 5vh 5vw;
+            h3{
+                margin: 3vh 0;
+            }
+            p{
+                margin-top: 3vh;
+                line-height: 25px;
+            }
+        }
+    }
+    .videos-uploaded{
+        p:nth-child(1){
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 7vh;
+        }
+        .videos{
+            @include rowDisplayFlex;
+            justify-content: space-evenly;
+            .video-item{
+                margin: 5vh 0;
+                p{
+                    text-align: center;
+                    margin: 2vh 0;
+                }
+            }
+        }
+        button{
+            @include orangeButton;
+            padding: 2vh 0;
+            border: none;
+            margin: 5vh 41.5vw;
+        }
+    }
+}
+.upload-body{
+    p:nth-child(1){
+        margin: 10vh 10vw;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .upload{
+        border: dashed 1px $pryColor;
+        border-radius: 30px;
+        margin: 10vh 15vw 10vh 15vw;
+        padding: 50px;
+        text-align: center;
+        p{
+            margin-top: 30px;
+        }
+        button{
+            @include blueButton;
+            padding: 10px 50px;
+            margin-top: 30px;
+            input{
+                opacity: 0;
+               position: absolute;
+               margin-left: -7vw;
+            }
+        }
+    }
+    .upload-info{
+        @include rowDisplayFlex;
+        .upload-details{
+            width: 30vw;
+            margin: 0 5vw 0 15vw;
+            border-radius: 20px;
+            border-color: $pryColor;
+            padding: 7px 15px;
+            font-style: italic;
+            color: $pryColor;
+            font-size: 16px;
+            ::placeholder{
+                font-style: italic;
+                color: $pryColor;
+            }
+        }
+        label{
+            border-radius: 40px;
+            border: 2px solid $pryColor;
+            width: 10vw;
+            background-color: $pryColor;
+            color: $whiteColor;
+            padding: 1vh 2vw;
+            z-index: 2;
+            @include rowDisplayFlex;
+            i{
+                color: $whiteColor;
+                padding-left: 1vw;
+            }
+        }
+        span{
+            position: absolute;
+            right: 55vw; 
+            width: 5vw;
+            height: 10vh;
+            border-radius: 30px;
+            input{
+                width: 20vw;
+                margin: 0 5vw 0 15vw;
+                border-radius: 15px;
+                border-color: $pryColor;
+                padding: 1vh 3vw 1vh 8vw;
+            }
+        }
+        input[type="file"]{
+            opacity: 0;
+            width: 30vw;
+            border-radius: 30px;
+        }
+    }  
+    .upload-description{
+        input[type="text"]{
+            width: 30vw;
+            margin: 3vh 15vw;
+            border-radius: 20px;
+            border-color: $pryColor;
+            padding: 7px 15px;
+        }
+    }
+    .upload-button{
+        button{
+            @include orangeButton;
+            padding: 10px 30px;
+            border: none;
+            margin: 5vh 41.5vw;
+        }
+    }
+}  

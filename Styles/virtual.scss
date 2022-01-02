@@ -1,0 +1,102 @@
+.virtual{
+    background: url("../Images/Bg-effect.png");
+    background-size: 100vw 100vh ;
+    background-repeat: no-repeat;
+}
+.virtual-nav{
+    margin: 2vh 0 0 2vw;
+    img{
+        width: 15vw;
+    }
+}
+.virtual-body{
+    @include rowDisplayFlex;
+    margin: 1vh 3vw;
+    .virtual-illustration{
+        margin-left: 3vw;
+    }
+    .virtual-text{
+        margin: 15vh 0 0 5vw;
+        h2{
+            font-size: 36px;
+        }
+        p{
+            margin: 2vh 0;
+            line-height: 1.5;
+        }
+        button{
+            margin-top: 3vh;
+            border: none;
+            padding: 2vh 2vw;
+            @include orangeButton;
+            i{
+                margin-left: 0.5vw;
+            }
+        }
+    }
+}
+.virtual-dash{
+    @include rowDisplayFlex;
+    .dash-header{
+        width: 100%;
+        background: url("../Images/Bg-effect.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        .dash-top{
+            background-image: url("../Images/topbar.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 3vh 5vw;
+            h3{
+                color: rgba(5, 81, 167, 1);
+            }
+        }
+        .virtual-dash-body{
+            .virtual-class{
+                @include rowDisplayFlex;
+                justify-content: space-evenly;
+                border-radius: 50px;
+                box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.25);
+                background-color: #ffffff;
+                margin: 10vh 10vw;
+                .class-text{
+                    width: 35vw;
+                    padding: 7vh 1vw;
+                    h4{
+                        margin: 2.5vh 0;
+                    }
+                    p{
+                        line-height: 1.75
+                    }
+                }
+                .class-btn{
+                    button{
+                        @include orangeButton;
+                        border: none;
+                        margin: 15vh 1vw;
+                        padding: 1vh 2vw;
+                        i{
+                            margin-left: 0.5vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .virtual-side{
+        background: rgba(5, 81, 167, 1);
+        .logo{
+            margin: 6vh 2vw;
+        }
+        ul{
+            a{
+                text-decoration: none;
+                color: white;
+                li{
+                    list-style-type: none;
+                    margin: 9vh 2vw;
+                }
+            }
+        }
+    }
+}

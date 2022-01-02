@@ -1,0 +1,320 @@
+//external scss
+@import "mixins";
+@import "signup";
+@import "onboarding";
+@import "dashboard";
+@import "teachers'-dash";
+@import "admin";
+@import "variables";
+@import "success";
+@import "about";
+@import "virtual";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+$montserrat: "Montserrat", sans-serif;
+body{
+    font-family: $montserrat;
+    height: 100%;
+}
+
+.dash-main{
+    background: linear-gradient(180deg, rgba(45, 109, 181, 0.19) -14.77%, rgba(45, 109, 181, 0) 100%),url("/Images/Pattern.png");
+    .dash{
+        @include rowDisplayFlex;
+        .sidebar{
+            height: 750px;
+            padding: 50px 20px;
+            background-color: #3774B9;
+            .brand-logo{
+                margin-bottom: 20px;
+                background-color: #3774B9;
+            }
+            .settings{
+                a{
+                    color: white;
+                    text-decoration: none;
+                    p{
+                        margin-top: 150px;
+                    }
+                }
+            }
+            .side-links{
+                a{
+                    text-decoration: none;
+                    p{
+                        padding: 35px 0;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+        .dashbody{
+            width: 100%;
+            .header{
+                background: url("Images/Topbar.png");
+                padding: 20px;
+                p{
+                    color: #0551A7;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .categories{
+                background-color: #ffffff;
+                box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 50px;
+                padding: 80px;
+                margin: 50px;
+                width: 1090px;
+                display: flex;
+                flex-direction: row;
+                .txt{
+                    margin-right: 100px;
+                    width: 620px;
+                    h4{
+                        margin-bottom: 30px;
+                    }
+                }
+                button{
+                    @include blueButton;
+                    width: 200px;
+                    margin-top: 80px;
+                    i{
+                        margin-left: 15px;
+                    }
+                }
+            }
+            .departments{
+                h4{
+                    text-align: center;
+                    margin: 45px 0;
+                }
+                .dept-img{
+                    @include rowDisplayFlex;
+                    figure{
+                        margin: 0 30px;
+                        figcaption{
+                            p{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .government{
+                margin-bottom: 100px;
+            }
+        }
+    }
+
+}
+// Subscription-Page
+@mixin planStyle{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 80px 40px;
+    padding: 40px;
+}
+@mixin planTxt{
+    margin:70px 0 0 70px;
+}
+.pry-plan{
+    @include rowDisplayFlex;
+    @include planStyle;
+    .pry-txt{
+        @include planTxt;
+        h5{
+            font-size: 20px;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+        p{
+            padding-bottom: 30px;
+            line-height: 25px;
+        }
+        button{
+            @include blueButton;
+            padding: 10px 45px;
+        }
+    }
+}
+.jnr-sec-plan, .snr-sec-plan, .pry-plan{
+    @include rowDisplayFlex;
+    @include planStyle;
+    .jnr-txt, .snr-txt, .pry-txt{
+        @include planTxt;
+        h5{
+            font-size: 20px;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+        p{
+            padding-bottom: 30px;
+            line-height: 25px;
+        }
+        button{
+            @include blueButton;
+            padding: 10px 45px;
+        }
+    }
+}
+.pri-pagebody{
+    background-image: url("../Images/Ellipse\ 61.png"),url("../Images/Ellipse\ 62.png"), url("../Images/Ellipse\ 63.png");
+    background-repeat: no-repeat;
+    background-position: 70% 40%, 95% 60% ,70% 100%;
+    .pry{
+        @include rowDisplayFlex;
+        margin: 10vh 5vw;
+        .pry-txt{
+            padding: 10vh 5vw;
+            margin-left: 2vw;
+            h5{
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 5vh;
+            }
+            p{
+                line-height: 25px;
+            }
+        }
+    }
+    .priPage-txt{
+        background-image: url("../Images/Background\ Pattern.png");
+        margin: 40px;
+        padding: 20px;
+        line-height: 25px;
+        font-size: 14px;
+        h3{
+            font-size: 24px;
+            margin-bottom: 5vh;
+        }
+        p{
+            margin-top: 15px;
+        }
+    }
+}
+.pay-with{
+    @include rowDisplayFlex;
+    margin: 40px 100px;
+    padding: 40px;
+    .master{
+        @include rowDisplayFlex;
+        padding: 10px 40px;
+        border: solid 1px #0551A7;
+        margin-right: 100px;
+        border-radius: 40px;
+        img{
+            padding-right: 10px;
+            padding-top: 5px;
+        }
+        .txt{
+            padding-top: 5px;
+        }
+    }
+    .visacard{
+        @include rowDisplayFlex;
+        padding: 10px 40px;
+        border: solid 1px #0551A7;
+        margin-right: 100px;
+        border-radius: 40px;
+        img{
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .txt{
+            padding-top: 5px;
+        }
+    }
+    .paypal-method{
+        @include rowDisplayFlex;
+        padding: 10px 40px;
+        border: solid 1px #0551A7;
+        border-radius: 40px;
+        img{
+            padding-right: 10px;
+            padding-top: 5px;
+        }
+        .txt{
+            padding-top: 5px;
+        }
+    }
+}
+
+// T&C page
+.main{
+    padding: 30px 100px;
+    .part-1{
+        margin-bottom: 30px;
+        p{
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+
+// login page
+.login{
+    background-size: cover;
+    .login-body{ 
+        margin: 50px 400px;
+        background-color: #ffffff;
+        box-shadow: 0px 5px 20px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        .login-brand{
+            text-align: center;
+            margin: 40px 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .login-intro{
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #0551A7;
+        }
+        .no-acct{
+            text-align: center;
+            margin-bottom: 30px;
+            p{
+                a{
+                    color: #16AE09;
+                }
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 60px;
+            input{
+                width: 100%;
+                margin-bottom: 30px;
+                padding: 1vh 2vw;
+                border-radius: 40px;
+                border: solid 2px #0551A7;
+            }
+            .login-submit{
+                padding: 0 0 20px 0;
+                button{
+                    @include blueButton;
+                    padding: 10px 60px;
+                    margin-left: 35%;
+                }
+            }
+            .google{
+                text-align: center;
+                padding-bottom: 60px;
+            }
+        }
+    }
+}
+
+@import "mediaquery";

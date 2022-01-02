@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's Dashboard</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- fontsawesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="dash-header">
+        <nav class="nav-dash teacher-dash">
+            <div class="navbar-brand teacher-nav">
+                <a href=""><img src="./Images/Instaskool Logo.png" alt=""></a>
+            </div>
+            <div class="dash-acct">
+                <img src="./Images/Icons/notification.png" alt="">
+                <img src="./Images/admin-img.png" alt="" class="profile-img">
+                <p>Account</p>
+                <img src="./Images/Icons/caret.png"  class="fas" onclick="openTeacherNav()" alt="">
+            </div>
+            <div class="teacher-drpdwn">
+                <span class="closebtn" onclick="closeTeacherNav()">&times;</span>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <hr>
+                    <li><a href="">Dashboard</a></li>
+                    <hr>
+                    <li><a href="">Payments & Subscription</a></li>
+                    <hr>
+                    <li><a href="">Subjects</a></li>
+                    <hr>
+                    <li><a href="">Live Classes</a></li>
+                    <hr>
+                    <li><a href="">Notes & Videos</a></li>
+                    <hr>
+                    <li><a href="">Logout</a></li>
+                    <hr>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="teacher-intro">
+            <img src="Images/math-tutor.png" alt="">
+            <div class="teacher-details">
+                <h3>Mr Matthew Agbetuyi </h3>
+                <p>Profund Mathematics teacher with 10 years experience cutting across schools in Nigeria. 
+                    Skilled in the art of mentorship and handling students as well as written lesson notes.
+                </p>
+                <p>Videos Uploaded: 9</p>
+            </div>
+        </section>
+        <section class="videos-uploaded">
+            <p>Videos Uploaded</p>
+            <section class="videos">
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Trigonometry
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Geometry
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Polygons
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+            </section>
+            <section class="videos">
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Quadratic Equation
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Discrete Maths
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Quantitative
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+            </section>
+            <section class="videos">
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Calculus
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Set theory
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+                <div class="video-item">
+                    <video src="video.mp4" type="video/mp4" controls></video>
+                    <p>Logic
+                        <br/>
+                        Pry 1 - 6
+                    </p>
+                </div>
+            </section>
+            <button>Upload Video</button>
+        </section>
+    </main>
+    <script src="./JS/index.js"></script>
+</body>
