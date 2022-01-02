@@ -498,6 +498,9 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
+.tutors .slideshow .carousel figure {
+  transition: all 2s ease-in-out;
+}
 .tutors .slideshow .carousel figure figcaption p {
   color: #ffffff;
   padding: 10px;

@@ -343,6 +343,7 @@ main{
         justify-content: space-around;
         .carousel{
             figure{
+                transition: all 2s ease-in-out;
                 figcaption{
                     p{
                         color: $whiteColor;
@@ -365,6 +366,18 @@ main{
         }
     }
 }
+// .tutors{
+//     .slideshow{
+//         .carousel{
+//             .scrolled{
+//                 opacity: 1;
+//                 &figure{
+//                     transform: translateY(0px);
+//                 }
+//             }
+//         }
+//     }
+// }
 .payment{
     h3{
         text-align: center;
