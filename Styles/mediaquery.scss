@@ -34,7 +34,6 @@
                     font-size: 30px;
                     font-weight: 800;
                     img{
-                        // top: 350px;
                         position: static;
                     }
                 }
@@ -99,6 +98,49 @@
                 }
             }
         }
+        .start-learning{
+            // .step-labels{
+            //     flex-wrap: wrap;
+            // }
+            .steps{
+                flex-wrap: wrap;
+                margin-left: 15.5vw;
+                margin-right: 15.5vw;
+                .step-1, .step-2, .step-3, .step-4{
+                    width: 280px;
+                    i{
+                        margin-left: 12vw;
+                        margin-right: 12vw;
+                    }
+                }
+                .step-1{
+                    i{
+                        margin-top: 10vh;
+                        margin-bottom: 5vh;
+                    }
+                }
+                .step-2{
+                    i{
+                        margin-top: 15vh;
+                        margin-bottom: 6vh;
+                    }
+                }
+                .step-3{
+                    margin: 15vh 2vw 2vh 2vw;
+                    i{
+                        margin-top: 20vh;
+                        margin-bottom: 7vh;
+                    }
+                }
+                .step-4{
+                    margin: 5vh 2vw 2vh 2vw;
+                    i{
+                        margin-top: 25vh;
+                        margin-bottom: 8vh;
+                    }
+                }
+            }
+        }
         .guide1{
             .guide-info{
                 height: 41vh;
@@ -124,6 +166,14 @@
                     width: 20vw;
                     padding: 1vh 2vw;
                 }
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            .basic,.standard,.premium{
+                width: 300px;
+                margin: 3vh 2vw ;
             }
         }
     }
@@ -523,6 +573,18 @@
                 }
             }
         }
+        .start-learning{
+            .steps{
+                margin-left: 6.5vw;
+                margin-right: 6.5vw;
+                .step-1,.step-2,.step-3,.step-4{
+                   i{
+                        margin-left: 16vw;
+                        margin-right: 16vw;
+                   }
+                }
+            }
+        }
         .guide1{
             .guide-info{
                 width: 94vw;
@@ -552,6 +614,15 @@
             .plan{
                 width: 50vw;
                 margin: 5vh 25vw
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            .basic,.standard,.premium{
+                button{
+                    padding: 1vh 0;
+                }
             }
         }
     }
@@ -1047,7 +1118,6 @@
                 }
             }
             .nav{
-                // display: none;
                 ul{
                     @include columnDisplayFlex;
                     li{
@@ -1203,6 +1273,41 @@
                 }
             }
         }
+        .start-learning{
+            .start-header{
+                margin-bottom: 70px;
+            }
+            .step-labels{
+                @include columnDisplayFlex;
+            }
+            .steps{
+                @include columnDisplayFlex;
+                .step-1{
+                    margin: 3vh 15vw;
+                    i{
+                        margin: 10vh 20vw 6vh 20vw;
+                    }
+                }
+                .step-2{
+                    margin: 3vh 15vw;
+                    i{
+                        margin: 17vh 20vw 8vh 20vw;
+                    }
+                }
+                .step-3{
+                    margin: 3vh 15vw;
+                    i{
+                        margin: 20vh 20vw 10vh 20vw;
+                    }
+                }
+                .step-4{
+                    margin: 3vh 15vw;
+                    i{
+                        margin: 23vh 20vw 12vh 20vw;
+                    }
+                }
+            }
+        }
         .guide1{
             margin: 5vh 2vw;
             .guide-info{
@@ -1287,6 +1392,19 @@
                 margin: 5vh 10vw;
                 button{
                     width: $smallscreen-btn;
+                }
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            @include columnDisplayFlex;
+            .basic,.standard,.premium{
+                width: 300px;
+                margin: 3vh 25vw;
+                button{
+                    margin: 1vh 10vw;
+                    width: 20vw;
                 }
             }
         }
@@ -2005,9 +2123,6 @@
     .main{
         padding: 5vh 10vw;
     }
-
-    //success-page
-
     .success-body{
         height: 60vh;
         .success-section{
@@ -2067,7 +2182,6 @@
                     line-height: 40px;
                     img{
                         top: 160px;
-                        // display: block;
                         position: static;
                         left: 310px;
                         width: 20px;
@@ -2081,7 +2195,6 @@
                 transition: all 2s ease-in-out;
                 img{
                     height: 184px;
-                    // width: 184px;
                 }
             }
         }
@@ -3674,6 +3787,41 @@
                 }
             }
         }
+        .start-learning{
+            .start-header{
+                margin-bottom: 70px;
+            }
+            .step-labels{
+                @include columnDisplayFlex;
+            }
+            .steps{
+                @include columnDisplayFlex;
+                .step-1{
+                    margin: 3vh 6vw;
+                    i{
+                        margin: 10vh 35vw 6vh 35vw;
+                    }
+                }
+                .step-2{
+                    margin: 3vh 6vw;
+                    i{
+                        margin: 17vh 35vw 8vh 35vw;
+                    }
+                }
+                .step-3{
+                    margin: 3vh 6vw;
+                    i{
+                        margin: 20vh 35vw 10vh 35vw;
+                    }
+                }
+                .step-4{
+                    margin: 3vh 6vw;
+                    i{
+                        margin: 23vh 35vw 12vh 35vw;
+                    }
+                }
+            }
+        }
         .guide1{
             margin: 5vh 3vw;
             .guide-info{
@@ -3715,6 +3863,15 @@
                 button{
                     width: 70vw;
                 }
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            @include columnDisplayFlex;
+            .basic,.standard,.premium{
+                width: 300px;
+                margin: 3vh 3vw;
             }
         }
     }

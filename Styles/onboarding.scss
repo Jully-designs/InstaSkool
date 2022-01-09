@@ -12,6 +12,7 @@ main{
     @include rowDisplayFlex;
     justify-content: space-between;
     margin: 30px 60px;
+    padding: 0;
     .nav{
         .closebtn{
             display: none;
@@ -47,6 +48,7 @@ main{
         @include rowDisplayFlex;
         justify-content: space-between;
         margin: 30px 60px;
+        padding: 0;
         .closebtn{
             display: none;
         }
@@ -88,7 +90,6 @@ main{
                 line-height: 78.02px;
                 img{
                     position: absolute;
-                    // top: 360px;
                 }
             }
         }
@@ -240,7 +241,7 @@ main{
                 transition: all 2s ease-in-out;
             }
             .guide-text{
-                margin-top: 40px;
+                margin-top: 40px 30px;
                 padding: 0 40px;
                 transition: all 2s ease-in-out;
                 transform: translateY(15px);
@@ -288,12 +289,113 @@ main{
             }
         }
     }
+    .start-learning{
+        opacity: 0;
+        transition: all 2s ease-in-out;
+        transform: translateY(-15px);
+        .start-header{
+            font-size: 30px;
+            font-weight: 600;
+            color: $pryColor;
+            text-align: center;
+            margin: 100px 0 200px 0;
+        }
+        .step-labels{
+            @include rowDisplayFlex;
+            h4{
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .label-1{
+                margin: 7vh 12vw 0vh 12vw;
+            }
+            .label-2{
+                margin: 2vh 8vw;
+            }
+            .label-3{
+                margin: -7vh 11vw 2vh 11vw;
+            }
+            .label-4{
+                margin: -15vh 10vw 2vh 10vw;
+            }
+        }
+        .steps{
+            @include rowDisplayFlex;
+            padding: 5vh 3vw;
+            .step-1{
+                background-color: $pryColor;
+                width: 264px;
+                height: 232px;
+                margin: 2vh 2vw;
+                color: #ffffff;
+                padding: 4vh 0;
+                p{
+                    text-align: center;
+                }
+                i{
+                    font-size: 36px;
+                    margin: 7vh 8vw 4vh 8vw;
+                }
+            }
+            .step-2{
+                background-color: rgba(255, 137, 62, 1);
+                width: 264px;
+                height: 292px;
+                margin: -7vh 2vw 2vh 2vw;
+                color: #ffffff;
+                padding: 4vh 0;
+                p{
+                    text-align: center;
+                }
+                i{
+                    font-size: 36px;
+                    margin: 12vh 8vw 4vh 8vw;
+                }
+            }
+            .step-3{
+                background-color: rgba(153, 191, 33, 1);
+                width: 264px;
+                height: 348px;
+                margin: -15vh 2vw 2vh 2vw;
+                color: #ffffff;
+                padding: 4vh 0;
+                p{
+                    text-align: center;
+                }
+                i{
+                    font-size: 36px;
+                    margin: 16vh 8vw 4vh 8vw;
+                }
+            }
+            .step-4{
+                background-color: rgba(246, 198, 27, 1);
+                width: 264px;
+                height: 408px;
+                margin: -23vh 2vw 2vh 2vw;
+                color: #ffffff;
+                padding: 4vh 0;
+                p{
+                    text-align: center;
+                }
+                i{
+                    font-size: 36px;
+                    margin: 23vh 8vw 4vh 8vw;
+                }
+            }
+        }
+    }
     .guide1{
         .scrolled{
             opacity: 1;
             &.guide-text{
                 transform: translateY(0px);
             }
+        }
+    }
+    .scrolled{
+        &.start-learning{
+            opacity: 1;
+            transform: translateY(0px);
         }
     }
 }
@@ -341,43 +443,42 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding-bottom: 8vh;
         .carousel{
             figure{
                 transition: all 2s ease-in-out;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
                 figcaption{
                     p{
                         color: $whiteColor;
-                        padding: 10px;
+                        padding: 3px;
+                        text-align: center;
                     }
                 }
             }
         }
     }
-    .indicators{
+    .carousel-indicators{
         text-align: center;
         margin-top: 50px;
-        .dots{
+        li{
             height: 15px;
             width: 15px;
+            bottom: -50px;
             margin: 0 2px;
             background-color: #bbb;
             border-radius: 50%;
             display: inline-block;
         }
     }
+    li:active{
+        background-color: black;
+    }
 }
-// .tutors{
-//     .slideshow{
-//         .carousel{
-//             .scrolled{
-//                 opacity: 1;
-//                 &figure{
-//                     transform: translateY(0px);
-//                 }
-//             }
-//         }
-//     }
-// }
 .payment{
     h3{
         text-align: center;
@@ -409,7 +510,7 @@ main{
         .plan{
             width: 338.9px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 50px;
+            border-radius: 20px;
             text-align: center;
             padding: 40px 30px;
             margin-top: 20px;
@@ -449,6 +550,42 @@ main{
             &.paypal{
                 opacity: 1;
                 transform: translateY(0px);
+            }
+        }
+    }
+}
+.subscription-section{
+    h3{
+        text-align: center;
+        color: $pryColor;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 10vh 0
+    }
+    .subscription-plans{
+        @include rowDisplayFlex;
+        .basic,.standard,.premium{
+            background-color: rgba(249, 249, 249, 1);
+            color: $pryColor;
+            margin: 3vh 3vw;
+            width: 367px;
+            height: 300px;
+            padding: 3vh 5vw;
+            p,h5{
+                margin: 6vh 1vw;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: center;
+            }
+            p{
+                font-weight: 700
+            }
+            button{
+                @include orangeButton;
+                width: 15vw;
+                padding: 2vh 1vw;
+                margin: 1vh 2vw;
+                border: none;
             }
         }
     }
