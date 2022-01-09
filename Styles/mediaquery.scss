@@ -2329,6 +2329,40 @@
                 }
             }
         }
+        .start-learning{
+            .start-header{
+                margin-bottom: 70px;
+            }
+            .step-labels{
+                @include columnDisplayFlex;
+            }
+            .steps{
+                .step-1{
+                    margin: 3vh 9vw;
+                    i{
+                        margin: 10vh 28vw 6vh 28vw;
+                    }
+                }
+                .step-2{
+                    margin: 3vh 9vw;
+                    i{
+                        margin: 17vh 28vw 8vh 28vw;
+                    }
+                }
+                .step-3{
+                    margin: 3vh 9vw;
+                    i{
+                        margin: 20vh 28vw 10vh 28vw;
+                    }
+                }
+                .step-4{
+                    margin: 3vh 9vw;
+                    i{
+                        margin: 23vh 28vw 12vh 28vw;
+                    }
+                }
+            }
+        }
         .guide1{
             border-radius: 30px;
             margin: 10vh 1vw;
@@ -2423,6 +2457,18 @@
                 margin: 2vh 2vw;
                 button{
                     width: 50vw;
+                }
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            .basic,.standard,.premium{
+                width: 300px;
+                margin: 3vh 16vw;
+                button{
+                    width: 32vw;
+                    margin: 1vh 14vw;
                 }
             }
         }
@@ -3135,6 +3181,40 @@
                 }
             }
         }
+        .start-learning{
+            .start-header{
+                margin-bottom: 70px;
+            }
+            .step-labels{
+                @include columnDisplayFlex;
+            }
+            .steps{
+                .step-1{
+                    margin: 3vh 5vw;
+                    i{
+                        margin: 10vh 32vw 6vh 32vw;
+                    }
+                }
+                .step-2{
+                    margin: 3vh 5vw;
+                    i{
+                        margin: 17vh 32vw 8vh 32vw;
+                    }
+                }
+                .step-3{
+                    margin: 3vh 5vw;
+                    i{
+                        margin: 20vh 32vw 10vh 32vw;
+                    }
+                }
+                .step-4{
+                    margin: 3vh 5vw;
+                    i{
+                        margin: 23vh 32vw 12vh 32vw;
+                    }
+                }
+            }
+        }
         .guide1{
             .guide-info{
                 @include columnDisplayFlex;
@@ -3170,6 +3250,19 @@
                 width: 90vw;
                 button{
                     width: 70vw;
+                }
+            }
+        }
+    }
+    .subscription-section{
+        .subscription-plans{
+            @include columnDisplayFlex;
+            .basic,.standard,.premium{
+                width: 300px;
+                margin: 3vh 12vw;
+                button{
+                    margin: 1vh 17vw;
+                    width: 35vw;
                 }
             }
         }
@@ -3796,26 +3889,28 @@
             }
             .steps{
                 @include columnDisplayFlex;
+                margin-left: 3vw;
+                margin-right: 3vw;
                 .step-1{
-                    margin: 3vh 6vw;
+                    margin: 3vh 1vw;
                     i{
                         margin: 10vh 35vw 6vh 35vw;
                     }
                 }
                 .step-2{
-                    margin: 3vh 6vw;
+                    margin: 3vh 1vw;
                     i{
                         margin: 17vh 35vw 8vh 35vw;
                     }
                 }
                 .step-3{
-                    margin: 3vh 6vw;
+                    margin: 3vh 1vw;
                     i{
                         margin: 20vh 35vw 10vh 35vw;
                     }
                 }
                 .step-4{
-                    margin: 3vh 6vw;
+                    margin: 3vh 1vw;
                     i{
                         margin: 23vh 35vw 12vh 35vw;
                     }
@@ -3872,6 +3967,10 @@
             .basic,.standard,.premium{
                 width: 300px;
                 margin: 3vh 3vw;
+                button{
+                    width: 40vw;
+                    margin: 1vh 20vw; 
+                }
             }
         }
     }

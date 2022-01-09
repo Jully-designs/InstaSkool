@@ -2921,6 +2921,37 @@ footer .footer .copyright {
     text-align: center;
     line-height: 19.5px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 28vw 6vh 28vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 28vw 8vh 28vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 28vw 10vh 28vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 28vw 12vh 28vw;
+  }
   .grouping .guide1 {
     border-radius: 30px;
     margin: 10vh 1vw;
@@ -3024,6 +3055,15 @@ footer .footer .copyright {
   }
   .payment .payment-options .plan button {
     width: 50vw;
+  }
+
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 16vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 32vw;
+    margin: 1vh 14vw;
   }
 
   footer .footer-color img {
@@ -3692,6 +3732,37 @@ footer .footer .copyright {
     font-weight: 600;
     font-size: 20px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 32vw 6vh 32vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 32vw 8vh 32vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 32vw 10vh 32vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 32vw 12vh 32vw;
+  }
   .grouping .guide1 .guide-info {
     display: flex;
     flex-direction: column;
@@ -3726,6 +3797,19 @@ footer .footer .copyright {
   }
   .payment .payment-options .plan button {
     width: 70vw;
+  }
+
+  .subscription-section .subscription-plans {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 12vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    margin: 1vh 17vw;
+    width: 35vw;
   }
 
   .pry {
@@ -4321,27 +4405,29 @@ footer .footer .copyright {
   .grouping .start-learning .steps {
     display: flex;
     flex-direction: column;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 10vh 35vw 6vh 35vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 17vh 35vw 8vh 35vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 20vh 35vw 10vh 35vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 23vh 35vw 12vh 35vw;
@@ -4394,6 +4480,10 @@ footer .footer .copyright {
   .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
     width: 300px;
     margin: 3vh 3vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 40vw;
+    margin: 1vh 20vw;
   }
 
   footer .footer .footer-content {
@@ -7728,6 +7818,37 @@ footer .footer .copyright {
     text-align: center;
     line-height: 19.5px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 28vw 6vh 28vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 28vw 8vh 28vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 28vw 10vh 28vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 28vw 12vh 28vw;
+  }
   .grouping .guide1 {
     border-radius: 30px;
     margin: 10vh 1vw;
@@ -7831,6 +7952,15 @@ footer .footer .copyright {
   }
   .payment .payment-options .plan button {
     width: 50vw;
+  }
+
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 16vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 32vw;
+    margin: 1vh 14vw;
   }
 
   footer .footer-color img {
@@ -8499,6 +8629,37 @@ footer .footer .copyright {
     font-weight: 600;
     font-size: 20px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 32vw 6vh 32vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 32vw 8vh 32vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 32vw 10vh 32vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 32vw 12vh 32vw;
+  }
   .grouping .guide1 .guide-info {
     display: flex;
     flex-direction: column;
@@ -8533,6 +8694,19 @@ footer .footer .copyright {
   }
   .payment .payment-options .plan button {
     width: 70vw;
+  }
+
+  .subscription-section .subscription-plans {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 12vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    margin: 1vh 17vw;
+    width: 35vw;
   }
 
   .pry {
@@ -9128,27 +9302,29 @@ footer .footer .copyright {
   .grouping .start-learning .steps {
     display: flex;
     flex-direction: column;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 10vh 35vw 6vh 35vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 17vh 35vw 8vh 35vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 20vh 35vw 10vh 35vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 23vh 35vw 12vh 35vw;
@@ -9201,6 +9377,10 @@ footer .footer .copyright {
   .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
     width: 300px;
     margin: 3vh 3vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 40vw;
+    margin: 1vh 20vw;
   }
 
   footer .footer .footer-content {
@@ -12840,6 +13020,37 @@ body {
     text-align: center;
     line-height: 19.5px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 28vw 6vh 28vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 28vw 8vh 28vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 28vw 10vh 28vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 9vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 28vw 12vh 28vw;
+  }
   .grouping .guide1 {
     border-radius: 30px;
     margin: 10vh 1vw;
@@ -12943,6 +13154,15 @@ body {
   }
   .payment .payment-options .plan button {
     width: 50vw;
+  }
+
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 16vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 32vw;
+    margin: 1vh 14vw;
   }
 
   footer .footer-color img {
@@ -13611,6 +13831,37 @@ body {
     font-weight: 600;
     font-size: 20px;
   }
+  .grouping .start-learning .start-header {
+    margin-bottom: 70px;
+  }
+  .grouping .start-learning .step-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .grouping .start-learning .steps .step-1 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-1 i {
+    margin: 10vh 32vw 6vh 32vw;
+  }
+  .grouping .start-learning .steps .step-2 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-2 i {
+    margin: 17vh 32vw 8vh 32vw;
+  }
+  .grouping .start-learning .steps .step-3 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-3 i {
+    margin: 20vh 32vw 10vh 32vw;
+  }
+  .grouping .start-learning .steps .step-4 {
+    margin: 3vh 5vw;
+  }
+  .grouping .start-learning .steps .step-4 i {
+    margin: 23vh 32vw 12vh 32vw;
+  }
   .grouping .guide1 .guide-info {
     display: flex;
     flex-direction: column;
@@ -13645,6 +13896,19 @@ body {
   }
   .payment .payment-options .plan button {
     width: 70vw;
+  }
+
+  .subscription-section .subscription-plans {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
+    width: 300px;
+    margin: 3vh 12vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    margin: 1vh 17vw;
+    width: 35vw;
   }
 
   .pry {
@@ -14240,27 +14504,29 @@ body {
   .grouping .start-learning .steps {
     display: flex;
     flex-direction: column;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 10vh 35vw 6vh 35vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 17vh 35vw 8vh 35vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 20vh 35vw 10vh 35vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 6vw;
+    margin: 3vh 1vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 23vh 35vw 12vh 35vw;
@@ -14313,6 +14579,10 @@ body {
   .subscription-section .subscription-plans .basic, .subscription-section .subscription-plans .standard, .subscription-section .subscription-plans .premium {
     width: 300px;
     margin: 3vh 3vw;
+  }
+  .subscription-section .subscription-plans .basic button, .subscription-section .subscription-plans .standard button, .subscription-section .subscription-plans .premium button {
+    width: 40vw;
+    margin: 1vh 20vw;
   }
 
   footer .footer .footer-content {
