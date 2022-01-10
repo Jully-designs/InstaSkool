@@ -929,6 +929,9 @@ footer .footer .copyright {
     width: 50vw;
     margin: 10vh w;
   }
+  .grouping .start-learning .step-labels {
+    display: none;
+  }
   .grouping .start-learning .steps {
     flex-wrap: wrap;
     margin-left: 15.5vw;
@@ -1892,6 +1895,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -2930,6 +2934,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 3vh 9vw;
@@ -3737,30 +3742,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    margin-top: 48vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    margin-top: 88vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    margin-top: 150vh;
-    text-align: center;
-    margin-bottom: 4vh;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 4vh 3vw;
@@ -5887,6 +5869,9 @@ footer .footer .copyright {
     width: 50vw;
     margin: 10vh w;
   }
+  .grouping .start-learning .step-labels {
+    display: none;
+  }
   .grouping .start-learning .steps {
     flex-wrap: wrap;
     margin-left: 15.5vw;
@@ -6850,6 +6835,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -7888,6 +7874,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 3vh 9vw;
@@ -8695,30 +8682,7 @@ footer .footer .copyright {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    margin-top: 48vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    margin-top: 88vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    margin-top: 150vh;
-    text-align: center;
-    margin-bottom: 4vh;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 4vh 3vw;
@@ -11150,6 +11114,9 @@ body {
     width: 50vw;
     margin: 10vh w;
   }
+  .grouping .start-learning .step-labels {
+    display: none;
+  }
   .grouping .start-learning .steps {
     flex-wrap: wrap;
     margin-left: 15.5vw;
@@ -12113,6 +12080,7 @@ body {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -13151,6 +13119,7 @@ body {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 3vh 9vw;
@@ -13958,30 +13927,7 @@ body {
   .grouping .start-learning .step-labels {
     display: flex;
     flex-direction: column;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    margin-top: 48vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    margin-top: 88vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    margin-top: 150vh;
-    text-align: center;
-    margin-bottom: 4vh;
+    display: none;
   }
   .grouping .start-learning .steps .step-1 {
     margin: 4vh 3vw;
