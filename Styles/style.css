@@ -2994,10 +2994,6 @@ footer .footer .copyright {
     border: solid 1px #EA7327;
   }
 
-  .join {
-    display: none;
-  }
-
   .tutors {
     background-image: url("../Images/tutors-bg.png");
     background-size: 100vw 70vh;
@@ -7937,10 +7933,6 @@ footer .footer .copyright {
     background-color: #ffffff;
     color: #EA7327;
     border: solid 1px #EA7327;
-  }
-
-  .join {
-    display: none;
   }
 
   .tutors {
@@ -13187,10 +13179,6 @@ body {
     background-color: #ffffff;
     color: #EA7327;
     border: solid 1px #EA7327;
-  }
-
-  .join {
-    display: none;
   }
 
   .tutors {
