@@ -628,9 +628,6 @@ main {
   border-radius: 50%;
   display: inline-block;
 }
-.tutors li:active {
-  background-color: black;
-}
 
 .payment h3 {
   text-align: center;
@@ -3814,6 +3811,20 @@ footer .footer .copyright {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 6vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: -10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {
@@ -8735,6 +8746,20 @@ footer .footer .copyright {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 6vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: -10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {
@@ -13961,6 +13986,20 @@ body {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 6vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: -10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {

@@ -3267,6 +3267,20 @@
     }
     .tutors{
         background-size: 100vw 70vh;
+        padding: 6vh 5vw;
+        .carousel-indicators{
+            text-align: center;
+            margin-top: 0;
+            li{
+                height: 15px;
+                width: 15px;
+                bottom: -10px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+            }
+        }
     }
     .payment{
         .payment-options{
