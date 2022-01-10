@@ -360,7 +360,7 @@ main {
 }
 .grouping .guide .offer-bg .offer h6 {
   margin: 25px 0;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
 }
 .grouping .guide .offer-bg .offer p {
@@ -392,6 +392,8 @@ main {
   transform: translateY(15px);
 }
 .grouping .guide1 .guide-info .guide-text h5 {
+  font-size: 20px;
+  font-weight: 500;
   padding: 20px 0;
 }
 .grouping .guide1 .guide-info .guide-text p {
@@ -445,7 +447,7 @@ main {
   font-weight: 600;
   color: #0551A7;
   text-align: center;
-  margin: 100px 0 200px 0;
+  margin: 100px 0 150px 0;
 }
 .grouping .start-learning .step-labels {
   display: flex;
@@ -551,8 +553,8 @@ main {
   transform: translateY(-50px);
 }
 .join h3 {
-  font-weight: bold;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 24px;
   width: 579px;
   margin: 0 auto;
 }
@@ -593,8 +595,8 @@ main {
   text-align: center;
   margin: 50px 0;
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 600;
 }
 .tutors .slideshow {
   display: flex;
@@ -631,7 +633,7 @@ main {
 .payment h3 {
   text-align: center;
   padding: 50px 0 0 0;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   margin: 90px 0 0 0;
   color: #0551A7;
@@ -711,7 +713,7 @@ main {
 .subscription-section h3 {
   text-align: center;
   color: #0551A7;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   margin: 10vh 0;
 }
