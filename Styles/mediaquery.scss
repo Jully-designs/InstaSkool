@@ -3923,7 +3923,30 @@
                 margin-bottom: 70px;
             }
             .step-labels{
-                @include columnDisplayFlex;
+                .label-1{
+                    position: relative;
+                    top: 8vh;
+                    text-align: center;
+                    margin: 7vh 12vw 0vh 12vw;
+                }
+                .label-2{
+                   position: relative;
+                   top: 53vh;
+                   text-align: center;
+                   margin-bottom: 5vh;
+                }
+                .label-3{
+                    position: relative;
+                    top: 111vh;
+                    text-align: center;
+                    margin-bottom: 4vh;
+                }
+                .label-4{
+                    position: relative;
+                    top: 187vh;
+                    text-align: center;
+                    margin-bottom: 4vh;
+                }
             }
             .steps{
                 @include columnDisplayFlex;
@@ -3988,6 +4011,20 @@
     }
     .tutors{
         background-size: 100vw 70vh;
+        padding: 3vh 5vw;
+        .carousel-indicators{
+            text-align: center;
+            margin-top: 0;
+            li{
+                height: 15px;
+                width: 15px;
+                bottom: 0;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+            }
+        }
     }
     .payment{
         .payment-options{

@@ -613,7 +613,6 @@ main {
 .tutors .slideshow .carousel figure figcaption p {
   color: #ffffff;
   padding: 3px;
-  text-align: center;
 }
 .tutors .carousel-indicators {
   text-align: center;
@@ -4433,9 +4432,29 @@ footer .footer .copyright {
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
   }
-  .grouping .start-learning .step-labels {
-    display: flex;
-    flex-direction: column;
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 8vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 53vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 111vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 187vh;
+    text-align: center;
+    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -4499,6 +4518,20 @@ footer .footer .copyright {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 3vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: 0;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {
@@ -9368,9 +9401,29 @@ footer .footer .copyright {
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
   }
-  .grouping .start-learning .step-labels {
-    display: flex;
-    flex-direction: column;
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 8vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 53vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 111vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 187vh;
+    text-align: center;
+    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -9434,6 +9487,20 @@ footer .footer .copyright {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 3vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: 0;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {
@@ -14608,9 +14675,29 @@ body {
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
   }
-  .grouping .start-learning .step-labels {
-    display: flex;
-    flex-direction: column;
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 8vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 53vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 111vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 187vh;
+    text-align: center;
+    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -14674,6 +14761,20 @@ body {
 
   .tutors {
     background-size: 100vw 70vh;
+    padding: 3vh 5vw;
+  }
+  .tutors .carousel-indicators {
+    text-align: center;
+    margin-top: 0;
+  }
+  .tutors .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    bottom: 0;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .payment .payment-options .plan {
