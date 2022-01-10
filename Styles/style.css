@@ -33,42 +33,42 @@
 .signup .signup-body .signup-intro .existing-user .existing p a, .login .signup-body .signup-intro .existing-user .existing p a {
   color: #16AE09;
 }
-.signup .signup-body #form-body, .login .signup-body #form-body {
-  display: flex;
-  flex-direction: row;
-}
-.signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
+.signup .signup-body .add-image p, .login .signup-body .add-image p {
   color: #0551A7;
   font-weight: 500;
-  margin: 1vh 3vw 1vh 10vw;
+  margin: 1vh 43vw;
 }
-.signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+.signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
   border: solid 2px #0551A7;
   padding: 2vh 2vw;
   width: 15vw;
   height: 25vh;
   max-height: 25vh;
-  margin: 5vh 3vw 5vh 7vw;
+  margin: 5vh auto;
   border-radius: 20px;
 }
-.signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+.signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
   font-size: 30px;
 }
-.signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+.signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
   margin: 7vh 4vw;
 }
-.signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+.signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
   position: absolute;
-  top: 56vh;
+  top: 52vh;
   width: 10vw;
   opacity: 0;
+}
+.signup .signup-body #form-body, .login .signup-body #form-body {
+  display: flex;
+  flex-direction: row;
 }
 .signup .signup-body form, .login .signup-body form {
   margin: 20px 0 0 0;
 }
 .signup .signup-body form input, .login .signup-body form input {
   width: 40%;
-  margin: 10px 30px;
+  margin: 10px 60px;
   padding: 2vh 2vw;
   border-radius: 40px;
   border: solid 2px #0551A7;
@@ -97,7 +97,7 @@
   width: 12vw;
   position: absolute;
   margin-top: 2vh;
-  left: 620px;
+  left: 600px;
   padding: 10px 50px;
 }
 .signup .signup-body form .submit div button:hover, .login .signup-body form .submit div button:hover {
@@ -113,7 +113,7 @@
 }
 .signup .signup-body form .google, .login .signup-body form .google {
   padding: 0 0 20px 0;
-  margin: 0 16vw;
+  margin: 0 38vw;
 }
 .signup .signup-body form .google p a, .login .signup-body form .google p a {
   color: #AE1309;
@@ -235,7 +235,7 @@ main {
 .onboarding-nav .hero .hero-body p {
   font-size: 50px;
   font-weight: 800;
-  margin: 50px 60px 0 60px;
+  margin: 80px 60px 0 60px;
   line-height: 78.02px;
 }
 .onboarding-nav .hero .hero-body p img {
@@ -1132,15 +1132,23 @@ footer .footer .copyright {
     margin-right: 2vw;
   }
 
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add {
+    margin: 5vh auto;
+    width: 25vw;
+  }
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 3.5vw;
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 8.5vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
+    left: 45vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 41.5vw;
   }
   .signup .signup-body form .submit div button {
     left: 43vw;
@@ -1623,28 +1631,28 @@ footer .footer .copyright {
   .signup .signup-body .signup-intro .create-acct {
     margin-left: 2vw;
   }
-  .signup .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p {
     margin: 1vh auto;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add {
     margin: 5vh auto;
     width: 30vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img {
     margin: 7vh 10vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
     left: 44vw;
+  }
+  .signup .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
   .signup .signup-body form .submit {
     display: flex;
@@ -2338,6 +2346,24 @@ footer .footer .copyright {
     width: 40vw;
     margin: 0 auto;
   }
+  .signup .signup-body .add-image .image-add {
+    width: 40vw;
+    margin: 5vh auto;
+  }
+  .signup .signup-body .add-image .image-add label {
+    font-size: 30px;
+  }
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
+  }
+  .signup .signup-body .add-image .image-add input {
+    position: absolute;
+    top: 52vh;
+    left: 44vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 40vw;
+  }
   .signup .signup-body .signup-intro {
     display: flex;
     flex-direction: column;
@@ -2397,7 +2423,8 @@ footer .footer .copyright {
   .signup .signup-body form .submit div button {
     position: relative;
     left: 0;
-    margin-bottom: 2vh;
+    width: 25vw;
+    margin: 1vh 35vw;
   }
   .signup .signup-body form .submit p {
     width: 97%;
@@ -3528,28 +3555,23 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
-    margin: 1vh 33vw;
-    text-align: center;
-  }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
-    width: 35vw;
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
+    width: 45vw;
     margin: 5vh auto;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 10vw;
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 53vh;
+    top: 48vh;
     left: 44vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .submit div button, .login .signup-body form .submit div button {
     margin: 1vh 30vw;
@@ -4250,19 +4272,23 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 45vw;
+    margin: 5vh 29vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 52vh;
-    left: 44vw;
+    top: 46vh;
+    left: 46vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .google, .login .signup-body form .google {
     margin: 0 auto;
@@ -4909,27 +4935,27 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
     margin: 1vh 33vw;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 50vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 16vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 50vh;
-    left: 44vw;
+    top: 45vh;
+    left: 48vw;
+  }
+  .signup .signup-body #form-body, .login .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
 
   .login .login-body form {
@@ -6072,15 +6098,23 @@ footer .footer .copyright {
     margin-right: 2vw;
   }
 
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add {
+    margin: 5vh auto;
+    width: 25vw;
+  }
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 3.5vw;
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 8.5vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
+    left: 45vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 41.5vw;
   }
   .signup .signup-body form .submit div button {
     left: 43vw;
@@ -6563,28 +6597,28 @@ footer .footer .copyright {
   .signup .signup-body .signup-intro .create-acct {
     margin-left: 2vw;
   }
-  .signup .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p {
     margin: 1vh auto;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add {
     margin: 5vh auto;
     width: 30vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img {
     margin: 7vh 10vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
     left: 44vw;
+  }
+  .signup .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
   .signup .signup-body form .submit {
     display: flex;
@@ -7278,6 +7312,24 @@ footer .footer .copyright {
     width: 40vw;
     margin: 0 auto;
   }
+  .signup .signup-body .add-image .image-add {
+    width: 40vw;
+    margin: 5vh auto;
+  }
+  .signup .signup-body .add-image .image-add label {
+    font-size: 30px;
+  }
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
+  }
+  .signup .signup-body .add-image .image-add input {
+    position: absolute;
+    top: 52vh;
+    left: 44vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 40vw;
+  }
   .signup .signup-body .signup-intro {
     display: flex;
     flex-direction: column;
@@ -7337,7 +7389,8 @@ footer .footer .copyright {
   .signup .signup-body form .submit div button {
     position: relative;
     left: 0;
-    margin-bottom: 2vh;
+    width: 25vw;
+    margin: 1vh 35vw;
   }
   .signup .signup-body form .submit p {
     width: 97%;
@@ -8468,28 +8521,23 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
-    margin: 1vh 33vw;
-    text-align: center;
-  }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
-    width: 35vw;
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
+    width: 45vw;
     margin: 5vh auto;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 10vw;
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 53vh;
+    top: 48vh;
     left: 44vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .submit div button, .login .signup-body form .submit div button {
     margin: 1vh 30vw;
@@ -9190,19 +9238,23 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 45vw;
+    margin: 5vh 29vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 52vh;
-    left: 44vw;
+    top: 46vh;
+    left: 46vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .google, .login .signup-body form .google {
     margin: 0 auto;
@@ -9849,27 +9901,27 @@ footer .footer .copyright {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
     margin: 1vh 33vw;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 50vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 16vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 50vh;
-    left: 44vw;
+    top: 45vh;
+    left: 48vw;
+  }
+  .signup .signup-body #form-body, .login .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
 
   .login .login-body form {
@@ -11317,15 +11369,23 @@ body {
     margin-right: 2vw;
   }
 
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add {
+    margin: 5vh auto;
+    width: 25vw;
+  }
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 3.5vw;
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 8.5vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
+    left: 45vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 41.5vw;
   }
   .signup .signup-body form .submit div button {
     left: 43vw;
@@ -11808,28 +11868,28 @@ body {
   .signup .signup-body .signup-intro .create-acct {
     margin-left: 2vw;
   }
-  .signup .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p {
     margin: 1vh auto;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add {
     margin: 5vh auto;
     width: 30vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img {
     margin: 7vh 10vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input {
     position: absolute;
-    top: 65vh;
+    top: 60vh;
     left: 44vw;
+  }
+  .signup .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
   .signup .signup-body form .submit {
     display: flex;
@@ -12523,6 +12583,24 @@ body {
     width: 40vw;
     margin: 0 auto;
   }
+  .signup .signup-body .add-image .image-add {
+    width: 40vw;
+    margin: 5vh auto;
+  }
+  .signup .signup-body .add-image .image-add label {
+    font-size: 30px;
+  }
+  .signup .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
+  }
+  .signup .signup-body .add-image .image-add input {
+    position: absolute;
+    top: 52vh;
+    left: 44vw;
+  }
+  .signup .signup-body .add-image p {
+    margin: 1vh 40vw;
+  }
   .signup .signup-body .signup-intro {
     display: flex;
     flex-direction: column;
@@ -12582,7 +12660,8 @@ body {
   .signup .signup-body form .submit div button {
     position: relative;
     left: 0;
-    margin-bottom: 2vh;
+    width: 25vw;
+    margin: 1vh 35vw;
   }
   .signup .signup-body form .submit p {
     width: 97%;
@@ -13713,28 +13792,23 @@ body {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
-    margin: 1vh 33vw;
-    text-align: center;
-  }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
-    width: 35vw;
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
+    width: 45vw;
     margin: 5vh auto;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
-    margin: 7vh 10vw;
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
+    margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 53vh;
+    top: 48vh;
     left: 44vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .submit div button, .login .signup-body form .submit div button {
     margin: 1vh 30vw;
@@ -14435,19 +14509,23 @@ body {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 45vw;
+    margin: 5vh 29vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 15vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 52vh;
-    left: 44vw;
+    top: 46vh;
+    left: 46vw;
+  }
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
+    margin: 1vh 37vw;
   }
   .signup .signup-body form .google, .login .signup-body form .google {
     margin: 0 auto;
@@ -15094,27 +15172,27 @@ body {
     margin: 0;
     border-radius: 0;
   }
-  .signup .signup-body #form-body, .login .signup-body #form-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .signup .signup-body #form-body .add-image p, .login .signup-body #form-body .add-image p {
+  .signup .signup-body .add-image p, .login .signup-body .add-image p {
     margin: 1vh 33vw;
     text-align: center;
   }
-  .signup .signup-body #form-body .add-image .image-add, .login .signup-body #form-body .add-image .image-add {
+  .signup .signup-body .add-image .image-add, .login .signup-body .add-image .image-add {
     width: 50vw;
   }
-  .signup .signup-body #form-body .add-image .image-add label, .login .signup-body #form-body .add-image .image-add label {
+  .signup .signup-body .add-image .image-add label, .login .signup-body .add-image .image-add label {
     font-size: 30px;
   }
-  .signup .signup-body #form-body .add-image .image-add label img, .login .signup-body #form-body .add-image .image-add label img {
+  .signup .signup-body .add-image .image-add label img, .login .signup-body .add-image .image-add label img {
     margin: 7vh 16vw;
   }
-  .signup .signup-body #form-body .add-image .image-add input, .login .signup-body #form-body .add-image .image-add input {
+  .signup .signup-body .add-image .image-add input, .login .signup-body .add-image .image-add input {
     position: absolute;
-    top: 50vh;
-    left: 44vw;
+    top: 45vh;
+    left: 48vw;
+  }
+  .signup .signup-body #form-body, .login .signup-body #form-body {
+    display: flex;
+    flex-direction: column;
   }
 
   .login .login-body form {

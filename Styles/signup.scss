@@ -35,42 +35,42 @@
                 }
             }
         }
-        #form-body{
-            @include rowDisplayFlex;
-            .add-image{
-                p{
-                   color: $pryColor;
-                   font-weight: 500;
-                   margin: 1vh 3vw 1vh 10vw;
+        .add-image{
+            p{
+               color: $pryColor;
+               font-weight: 500;
+               margin: 1vh 43vw;
+            }
+            .image-add{
+                border: solid 2px $pryColor;
+                padding: 2vh 2vw;
+                width: 15vw;
+                height: 25vh;
+                max-height: 25vh;
+                margin: 5vh auto;
+                border-radius: 20px;
+                label{
+                    font-size: 30px;
+                    img{
+                        margin: 7vh 4vw;
+                    }
                 }
-                .image-add{
-                    border: solid 2px $pryColor;
-                    padding: 2vh 2vw;
-                    width: 15vw;
-                    height: 25vh;
-                    max-height: 25vh;
-                    margin: 5vh 3vw 5vh 7vw;
-                    border-radius: 20px;
-                    label{
-                        font-size: 30px;
-                        img{
-                            margin: 7vh 4vw;
-                        }
-                    }
-                    input{
-                        position: absolute;
-                        top: 56vh;
-                        width: 10vw;
-                        opacity: 0;
-                    }
+                input{
+                    position: absolute;
+                    top: 52vh;
+                    width: 10vw;
+                    opacity: 0;
                 }
             }
+        }
+        #form-body{
+            @include rowDisplayFlex;
         }
         form{
             margin: 20px 0 0 0;
             input{
                 width: 40%;
-                margin: 10px 30px;
+                margin: 10px 60px;
                 padding: 2vh 2vw;
                 border-radius: 40px;
                 border: solid 2px $pryColor;
@@ -90,7 +90,7 @@
                         @include blueButton;
                         position: absolute;
                         margin-top: 2vh;
-                        left: 620px;
+                        left: 600px;
                         padding:  10px 50px;
                     }
                 }
@@ -103,7 +103,7 @@
             }
             .google{
                 padding: 0 0 20px 0;
-                margin: 0 16vw;
+                margin: 0 38vw;
                 p{
                     a{
                         color: #AE1309;

@@ -395,20 +395,24 @@
     }
     .signup{
         .signup-body{
-            #form-body{
-                .add-image{
-                    .image-add{
-                        label{
-                            font-size: 30px;
-                            img{
-                                margin: 7vh 3.5vw;
-                            }
-                        }
-                        input{
-                            position: absolute;
-                            top: 65vh;
+            .add-image{
+                .image-add{
+                    margin: 5vh auto;
+                    width: 25vw;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 8.5vw;
                         }
                     }
+                    input{
+                        position: absolute;
+                        top: 60vh;
+                        left: 45vw;
+                    }
+                }
+                p{
+                    margin: 1vh 41.5vw;
                 }
             }
             form{
@@ -981,29 +985,29 @@
                     margin-left: 2vw;
                 }
             }
-            #form-body{
-                @include columnDisplayFlex;
-                .add-image{
-                    p{
-                        margin: 1vh auto;
-                        text-align: center;
+            .add-image{
+                p{
+                    margin: 1vh auto;
+                    text-align: center;
+                }
+                .image-add{
+                    margin: 5vh auto;
+                    width: 30vw;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 10vw;
+                        }
                     }
-                    .image-add{
-                        margin: 5vh auto;
-                        width: 30vw;
-                        label{
-                            font-size: 30px;
-                            img{
-                                margin: 7vh 10vw;
-                            }
-                        }
-                        input{
-                            position: absolute;
-                            top: 65vh;
-                            left: 44vw;
-                        }
+                    input{
+                        position: absolute;
+                        top: 60vh;
+                        left: 44vw;
                     }
                 }
+            }
+            #form-body{
+                @include columnDisplayFlex;
             }
             form{
                 .submit{
@@ -1748,6 +1752,26 @@
                     }
                 }
             }
+            .add-image{
+                .image-add{
+                    width: 40vw;
+                    margin: 5vh auto;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 15vw;
+                        }
+                    }
+                    input{
+                        position: absolute;
+                        top: 52vh;
+                        left: 44vw;
+                    }
+                }
+                p{
+                    margin: 1vh 40vw;
+                }
+            }
             .signup-intro{
                 @include columnDisplayFlex;
                 .create-acct{
@@ -1804,7 +1828,8 @@
                         button{
                            position: relative;
                            left: 0; 
-                           margin-bottom: 2vh;
+                           width: 25vw;
+                           margin: 1vh 35vw;
                         }
                     }
                     p{
@@ -2934,28 +2959,24 @@
         .signup-body{
             margin: 0;
             border-radius: 0;
-            #form-body{
-                @include columnDisplayFlex;
-                .add-image{
-                    p{
-                        margin: 1vh 33vw;
-                        text-align: center;
-                    }
-                    .image-add{
-                        width: 35vw;
-                        margin: 5vh auto;
-                        label{
-                            font-size: 30px;
-                            img{
-                                margin: 7vh 10vw;
-                            }
-                        }
-                        input{
-                            position: absolute;
-                            top: 53vh;
-                            left: 44vw;
+            .add-image{
+                .image-add{
+                    width: 45vw;
+                    margin: 5vh auto;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 15vw;
                         }
                     }
+                    input{
+                        position: absolute;
+                        top: 48vh;
+                        left: 44vw;
+                    }
+                }
+                p{
+                    margin: 1vh 37vw;
                 }
             }
             form{
@@ -3704,22 +3725,24 @@
         .signup-body{
             margin: 0;
             border-radius: 0;
-            #form-body{
-                .add-image{
-                    .image-add{
-                        width: 45vw;
-                        label{
-                            font-size: 30px;
-                            img{
-                                margin: 7vh 15vw;
-                            }
-                        }
-                        input{
-                            position: absolute;
-                            top: 52vh;
-                            left: 44vw;
+            .add-image{
+                .image-add{
+                    width: 45vw;
+                    margin: 5vh 29vw;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 15vw;
                         }
                     }
+                    input{
+                        position: absolute;
+                        top: 46vh;
+                        left: 46vw;
+                    }
+                }
+                p{
+                    margin: 1vh 37vw;
                 }
             }
             form{
@@ -4402,28 +4425,28 @@
         .signup-body{
             margin: 0;
             border-radius: 0;
-            #form-body{
-                @include columnDisplayFlex;
-                .add-image{
-                    p{
-                        margin: 1vh 33vw;
-                        text-align: center;
+            .add-image{
+                p{
+                    margin: 1vh 33vw;
+                    text-align: center;
+                }
+                .image-add{
+                    width: 50vw;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 16vw;
+                        }
                     }
-                    .image-add{
-                        width: 50vw;
-                        label{
-                            font-size: 30px;
-                            img{
-                                margin: 7vh 16vw;
-                            }
-                        }
-                        input{
-                            position: absolute;
-                            top: 50vh;
-                            left: 44vw;
-                        }
+                    input{
+                        position: absolute;
+                        top: 45vh;
+                        left: 48vw;
                     }
                 }
+            }
+            #form-body{
+                @include columnDisplayFlex;
             }
         }
     }
