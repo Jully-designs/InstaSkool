@@ -3187,28 +3187,52 @@
             }
             .step-labels{
                 @include columnDisplayFlex;
+                .label-1{
+                    position: relative;
+                   top: 10vh;
+                   text-align: center;
+                    margin: 7vh 12vw 0vh 12vw;
+                }
+                .label-2{
+                   position: relative;
+                   top: 55vh;
+                   text-align: center;
+                   margin-bottom: 5vh;
+                }
+                .label-3{
+                    position: relative;
+                    top: 115vh;
+                    text-align: center;
+                    margin-bottom: 4vh;
+                }
+                .label-4{
+                    position: relative;
+                    top: 195vh;
+                    text-align: center;
+                    margin-bottom: 4vh;
+                }
             }
             .steps{
                 .step-1{
-                    margin: 3vh 3vw;
+                    margin: 4vh 3vw;
                     i{
                         margin: 7vh 33vw 4vh 33vw;
                     }
                 }
                 .step-2{
-                    margin: 3vh 3vw;
+                    margin: 4vh 3vw;
                     i{
                         margin: 9vh 33vw 4vh 33vw;
                     }
                 }
                 .step-3{
-                    margin: 3vh 3vw;
+                    margin: 4vh 3vw;
                     i{
                         margin: 12vh 33vw 4vh 33vw;
                     }
                 }
                 .step-4{
-                    margin: 3vh 3vw;
+                    margin: 4vh 3vw;
                     i{
                         margin: 14vh 33vw 4vh 33vw;
                     }

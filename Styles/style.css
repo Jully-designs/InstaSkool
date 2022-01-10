@@ -589,11 +589,11 @@ main {
   padding: 80px 40px 100px 40px;
   margin-top: 40px;
 }
-.tutors h4 {
+.tutors h3 {
   text-align: center;
   margin: 50px 0;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
 }
 .tutors .slideshow {
@@ -716,7 +716,7 @@ main {
   text-align: center;
   color: #0551A7;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10vh 0;
 }
 .subscription-section .subscription-plans {
@@ -3739,26 +3739,50 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 55vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 115vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 195vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 7vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 9vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 14vh 33vw 4vh 33vw;
@@ -8636,26 +8660,50 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 55vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 115vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 195vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 7vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 9vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 14vh 33vw 4vh 33vw;
@@ -13838,26 +13886,50 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .grouping .start-learning .step-labels .label-1 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    margin: 7vh 12vw 0vh 12vw;
+  }
+  .grouping .start-learning .step-labels .label-2 {
+    position: relative;
+    top: 55vh;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  .grouping .start-learning .step-labels .label-3 {
+    position: relative;
+    top: 115vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .grouping .start-learning .step-labels .label-4 {
+    position: relative;
+    top: 195vh;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
   .grouping .start-learning .steps .step-1 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
     margin: 7vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
     margin: 9vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
     margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
-    margin: 3vh 3vw;
+    margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
     margin: 14vh 33vw 4vh 33vw;
