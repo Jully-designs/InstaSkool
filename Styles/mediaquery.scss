@@ -1342,7 +1342,14 @@
         }
     }
     .join{
-        display: none;
+        padding: 0;
+        h3{
+            width: 300px;
+        }
+        button{
+            width: 30vw;
+            padding: 1vh 1vw;
+        }
     }
     .tutors{
         background-image: url("../Images/tutors-bg.png");
@@ -3263,6 +3270,12 @@
             }
         }
     }
+    .join{
+        button{
+            width: 35vw;
+            padding: 1vh 1vw;
+        }
+    }
     .tutors{
         background-size: 100vw 70vh;
         padding: 6vh 5vw;
@@ -3979,6 +3992,12 @@
                     }
                 }
             }
+        }
+    }
+    .join{
+        button{
+            width: 40vw;
+            padding: 1vh 1vw;
         }
     }
     .tutors{

@@ -1966,7 +1966,14 @@ footer .footer .copyright {
   }
 
   .join {
-    display: none;
+    padding: 0;
+  }
+  .join h3 {
+    width: 300px;
+  }
+  .join button {
+    width: 30vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
@@ -3804,6 +3811,11 @@ footer .footer .copyright {
     width: 65vw;
   }
 
+  .join button {
+    width: 35vw;
+    padding: 1vh 1vw;
+  }
+
   .tutors {
     background-size: 100vw 70vh;
     padding: 6vh 5vw;
@@ -4486,6 +4498,11 @@ footer .footer .copyright {
   .grouping .guide1 .guide-info .guide-text .btn button {
     margin-top: 2vh;
     width: 65vw;
+  }
+
+  .join button {
+    width: 40vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
@@ -6907,7 +6924,14 @@ footer .footer .copyright {
   }
 
   .join {
-    display: none;
+    padding: 0;
+  }
+  .join h3 {
+    width: 300px;
+  }
+  .join button {
+    width: 30vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
@@ -8745,6 +8769,11 @@ footer .footer .copyright {
     width: 65vw;
   }
 
+  .join button {
+    width: 35vw;
+    padding: 1vh 1vw;
+  }
+
   .tutors {
     background-size: 100vw 70vh;
     padding: 6vh 5vw;
@@ -9427,6 +9456,11 @@ footer .footer .copyright {
   .grouping .guide1 .guide-info .guide-text .btn button {
     margin-top: 2vh;
     width: 65vw;
+  }
+
+  .join button {
+    width: 40vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
@@ -12153,7 +12187,14 @@ body {
   }
 
   .join {
-    display: none;
+    padding: 0;
+  }
+  .join h3 {
+    width: 300px;
+  }
+  .join button {
+    width: 30vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
@@ -13991,6 +14032,11 @@ body {
     width: 65vw;
   }
 
+  .join button {
+    width: 35vw;
+    padding: 1vh 1vw;
+  }
+
   .tutors {
     background-size: 100vw 70vh;
     padding: 6vh 5vw;
@@ -14673,6 +14719,11 @@ body {
   .grouping .guide1 .guide-info .guide-text .btn button {
     margin-top: 2vh;
     width: 65vw;
+  }
+
+  .join button {
+    width: 40vw;
+    padding: 1vh 1vw;
   }
 
   .tutors {
