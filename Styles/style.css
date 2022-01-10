@@ -386,7 +386,7 @@ main {
   transition: all 2s ease-in-out;
 }
 .grouping .guide1 .guide-info .guide-text {
-  margin-top: 40px 30px;
+  margin: 40px 30px;
   padding: 0 40px;
   transition: all 2s ease-in-out;
   transform: translateY(15px);
@@ -3743,19 +3743,19 @@ footer .footer .copyright {
   }
   .grouping .start-learning .step-labels .label-2 {
     position: relative;
-    top: 48vh;
+    margin-top: 48vh;
     text-align: center;
     margin-bottom: 5vh;
   }
   .grouping .start-learning .step-labels .label-3 {
     position: relative;
-    top: 88vh;
+    margin-top: 88vh;
     text-align: center;
     margin-bottom: 4vh;
   }
   .grouping .start-learning .step-labels .label-4 {
     position: relative;
-    top: 150vh;
+    margin-top: 150vh;
     text-align: center;
     margin-bottom: 4vh;
   }
@@ -4431,30 +4431,6 @@ footer .footer .copyright {
   }
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    top: 67vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    top: 140vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    top: 250vh;
-    text-align: center;
-    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -8712,19 +8688,19 @@ footer .footer .copyright {
   }
   .grouping .start-learning .step-labels .label-2 {
     position: relative;
-    top: 48vh;
+    margin-top: 48vh;
     text-align: center;
     margin-bottom: 5vh;
   }
   .grouping .start-learning .step-labels .label-3 {
     position: relative;
-    top: 88vh;
+    margin-top: 88vh;
     text-align: center;
     margin-bottom: 4vh;
   }
   .grouping .start-learning .step-labels .label-4 {
     position: relative;
-    top: 150vh;
+    margin-top: 150vh;
     text-align: center;
     margin-bottom: 4vh;
   }
@@ -9400,30 +9376,6 @@ footer .footer .copyright {
   }
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    top: 67vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    top: 140vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    top: 250vh;
-    text-align: center;
-    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;
@@ -13986,19 +13938,19 @@ body {
   }
   .grouping .start-learning .step-labels .label-2 {
     position: relative;
-    top: 48vh;
+    margin-top: 48vh;
     text-align: center;
     margin-bottom: 5vh;
   }
   .grouping .start-learning .step-labels .label-3 {
     position: relative;
-    top: 88vh;
+    margin-top: 88vh;
     text-align: center;
     margin-bottom: 4vh;
   }
   .grouping .start-learning .step-labels .label-4 {
     position: relative;
-    top: 150vh;
+    margin-top: 150vh;
     text-align: center;
     margin-bottom: 4vh;
   }
@@ -14674,30 +14626,6 @@ body {
   }
   .grouping .start-learning .start-header {
     margin-bottom: 70px;
-  }
-  .grouping .start-learning .step-labels .label-1 {
-    position: relative;
-    top: 8vh;
-    text-align: center;
-    margin: 7vh 12vw 0vh 12vw;
-  }
-  .grouping .start-learning .step-labels .label-2 {
-    position: relative;
-    top: 67vh;
-    text-align: center;
-    margin-bottom: 5vh;
-  }
-  .grouping .start-learning .step-labels .label-3 {
-    position: relative;
-    top: 140vh;
-    text-align: center;
-    margin-bottom: 4vh;
-  }
-  .grouping .start-learning .step-labels .label-4 {
-    position: relative;
-    top: 250vh;
-    text-align: center;
-    margin-bottom: 4vh;
   }
   .grouping .start-learning .steps {
     display: flex;

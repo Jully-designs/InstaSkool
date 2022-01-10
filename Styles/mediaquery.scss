@@ -3195,19 +3195,19 @@
                 }
                 .label-2{
                    position: relative;
-                   top: 48vh;
+                   margin-top: 48vh;
                    text-align: center;
                    margin-bottom: 5vh;
                 }
                 .label-3{
                     position: relative;
-                    top: 88vh;
+                    margin-top: 88vh;
                     text-align: center;
                     margin-bottom: 4vh;
                 }
                 .label-4{
                     position: relative;
-                    top: 150vh;
+                    margin-top: 150vh;
                     text-align: center;
                     margin-bottom: 4vh;
                 }
@@ -3921,32 +3921,6 @@
         .start-learning{
             .start-header{
                 margin-bottom: 70px;
-            }
-            .step-labels{
-                .label-1{
-                    position: relative;
-                    top: 8vh;
-                    text-align: center;
-                    margin: 7vh 12vw 0vh 12vw;
-                }
-                .label-2{
-                   position: relative;
-                   top: 67vh;
-                   text-align: center;
-                   margin-bottom: 5vh;
-                }
-                .label-3{
-                    position: relative;
-                    top: 140vh;
-                    text-align: center;
-                    margin-bottom: 4vh;
-                }
-                .label-4{
-                    position: relative;
-                    top: 250vh;
-                    text-align: center;
-                    margin-bottom: 4vh;
-                }
             }
             .steps{
                 @include columnDisplayFlex;
