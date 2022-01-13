@@ -1769,6 +1769,8 @@ footer .footer .copyright {
     z-index: 1;
     background-color: #0551A7;
     position: fixed;
+    height: 100%;
+    overflow: auto;
   }
   .virtual-dash .virtual-side.sidenav-show .logo {
     margin: 3vh 5vw;
@@ -7363,6 +7365,8 @@ footer .footer .copyright {
     z-index: 1;
     background-color: #0551A7;
     position: fixed;
+    height: 100%;
+    overflow: auto;
   }
   .virtual-dash .virtual-side.sidenav-show .logo {
     margin: 3vh 5vw;
@@ -13590,6 +13594,8 @@ body {
     z-index: 1;
     background-color: #0551A7;
     position: fixed;
+    height: 100%;
+    overflow: auto;
   }
   .virtual-dash .virtual-side.sidenav-show .logo {
     margin: 3vh 5vw;

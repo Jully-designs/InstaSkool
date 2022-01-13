@@ -1153,6 +1153,8 @@
                 z-index: 1;
                 background-color: $pryColor;
                 position: fixed;
+                height: 100%;
+                overflow: auto;
                 .logo{
                     margin: 3vh 5vw;
                 }
