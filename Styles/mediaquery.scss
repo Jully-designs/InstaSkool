@@ -3484,20 +3484,18 @@
             .user-calendar{
                 display: none;
                 .user{
-                    width: 50vw;
+                    width: 58vw;
                     margin: 3vh 2vw;
                     border-radius: 15px;
                     button{
-                        width: 35vw;
+                        width: 40vw;
                         margin: 1vh 7vw 5vh 7vw;
                     }
                 }
                 &.sidenav-show{
-                    width: 55vw;
-                    // height: 120%;
+                    width: 63vw;
                     overflow: auto;
                     height: 100%;
-                    width: 250px;
                     position: fixed;
                     display: block;
                     .closebtn{
@@ -3507,13 +3505,13 @@
                 }
                 .calendar-body{
                     .calendar{
-                        height: 90%;
+                        height: 100%;
                     }
-                    width: 50vw;
+                    width: 58vw;
                     margin: 3vh 2vw;
                     border-radius: 20px;
                     .days div {
-                        width: calc(48vw / 7);
+                        width: calc(57vw / 7);
                     }
                 }
             }
@@ -4333,25 +4331,25 @@
             .user-calendar{
                 display: none;
                 .user{
-                    width: 51vw;
+                    width: 59vw;
                     margin: 3vh 2vw;
                     .user-details{
                         @include columnDisplayFlex;
                         img{
                             width: 25vw;
-                            margin: 6vh 13vw 1vh 13vw;
+                            margin: 6vh 17vw 1vh 17vw;
                         }
                         .profile-details{
-                            margin: 2vh 10vw;
+                            margin: 2vh 13vw;
                         }
                     }
                     button{
-                        width: 40vw;
+                        width: 44vw;
                         margin: 1vh 6vw 5vh 6vw;
                     }
                 }
                 &.sidenav-show{
-                    width: 55vw;
+                    width: 65vw;
                     .closebtn{
                         margin-left: 45vw;
                         color: $pryColor;
@@ -4364,7 +4362,7 @@
                             font-size: 14px;
                         }
                     }
-                    width: 51vw;
+                    width: 59vw;
                     margin: 3vh 2vw;
                     .month{
                         h1{
@@ -4372,7 +4370,7 @@
                         }
                     }
                     .days div {
-                        width: calc(49vw / 7);
+                        width: calc(58vw / 7);
                     }
                 }
             }
@@ -5214,28 +5212,28 @@
             .user-calendar{
                 display: none;
                 .user{
-                    width: 53vw;
+                    width: 59vw;
                     margin: 3vh 2vw;
                     .user-details{
                         @include columnDisplayFlex;
                         img{
                             width: 27vw;
-                            margin: 2vh 13vw 1vh 13vw;
+                            margin: 2vh 15vw 1vh 15vw;
                         }
                         .profile-details{
-                            margin: 2vh 10vw;
+                            margin: 2vh 13vw;
                             p{
                                 font-size: 14px;
                             }
                         }
                     }
                     button{
-                        width: 47vw;
+                        width: 52vw;
                         margin: 1vh 3vw 5vh 3vw;
                     }
                 }
                 &.sidenav-show{
-                    width: 58vw;
+                    width: 65vw;
                     .closebtn{
                         margin-left: 45vw;
                         color: $pryColor;
@@ -5247,10 +5245,10 @@
                             font-size: 14px;
                         }
                     }
-                    width: 53vw;
+                    width: 59vw;
                     margin: 3vh 2vw;
                     .days div {
-                        width: calc(50vw / 7);
+                        width: calc(56vw / 7);
                     }
                     .month{
                         h1,p{

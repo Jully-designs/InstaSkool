@@ -3989,19 +3989,18 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 15px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 35vw;
+    width: 40vw;
     margin: 1vh 7vw 5vh 7vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 63vw;
     overflow: auto;
     height: 100%;
-    width: 250px;
     position: fixed;
     display: block;
   }
@@ -4010,15 +4009,15 @@ footer .footer .copyright {
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 20px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
-    height: 90%;
+    height: 100%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(48vw / 7);
+    width: calc(57vw / 7);
   }
   .dashboard-body .schedule .week {
     font-size: 16px;
@@ -4766,7 +4765,7 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -4775,24 +4774,24 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 25vw;
-    margin: 6vh 13vw 1vh 13vw;
+    margin: 6vh 17vw 1vh 17vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 40vw;
+    width: 44vw;
     margin: 1vh 6vw 5vh 6vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
@@ -4802,7 +4801,7 @@ footer .footer .copyright {
     margin-bottom: 2vh;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(49vw / 7);
+    width: calc(58vw / 7);
   }
   .dashboard-body .schedule {
     margin: 3vh 3.5vw;
@@ -5578,7 +5577,7 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -5587,34 +5586,34 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 27vw;
-    margin: 2vh 13vw 1vh 13vw;
+    margin: 2vh 15vw 1vh 15vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details p {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 47vw;
+    width: 52vw;
     margin: 1vh 3vw 5vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 58vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(50vw / 7);
+    width: calc(56vw / 7);
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month h1, .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month p {
     font-size: 14px;
@@ -9584,19 +9583,18 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 15px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 35vw;
+    width: 40vw;
     margin: 1vh 7vw 5vh 7vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 63vw;
     overflow: auto;
     height: 100%;
-    width: 250px;
     position: fixed;
     display: block;
   }
@@ -9605,15 +9603,15 @@ footer .footer .copyright {
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 20px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
-    height: 90%;
+    height: 100%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(48vw / 7);
+    width: calc(57vw / 7);
   }
   .dashboard-body .schedule .week {
     font-size: 16px;
@@ -10361,7 +10359,7 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -10370,24 +10368,24 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 25vw;
-    margin: 6vh 13vw 1vh 13vw;
+    margin: 6vh 17vw 1vh 17vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 40vw;
+    width: 44vw;
     margin: 1vh 6vw 5vh 6vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
@@ -10397,7 +10395,7 @@ footer .footer .copyright {
     margin-bottom: 2vh;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(49vw / 7);
+    width: calc(58vw / 7);
   }
   .dashboard-body .schedule {
     margin: 3vh 3.5vw;
@@ -11173,7 +11171,7 @@ footer .footer .copyright {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -11182,34 +11180,34 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 27vw;
-    margin: 2vh 13vw 1vh 13vw;
+    margin: 2vh 15vw 1vh 15vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details p {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 47vw;
+    width: 52vw;
     margin: 1vh 3vw 5vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 58vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(50vw / 7);
+    width: calc(56vw / 7);
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month h1, .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month p {
     font-size: 14px;
@@ -15812,19 +15810,18 @@ body {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 15px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 35vw;
+    width: 40vw;
     margin: 1vh 7vw 5vh 7vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 63vw;
     overflow: auto;
     height: 100%;
-    width: 250px;
     position: fixed;
     display: block;
   }
@@ -15833,15 +15830,15 @@ body {
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 50vw;
+    width: 58vw;
     margin: 3vh 2vw;
     border-radius: 20px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
-    height: 90%;
+    height: 100%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(48vw / 7);
+    width: calc(57vw / 7);
   }
   .dashboard-body .schedule .week {
     font-size: 16px;
@@ -16589,7 +16586,7 @@ body {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -16598,24 +16595,24 @@ body {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 25vw;
-    margin: 6vh 13vw 1vh 13vw;
+    margin: 6vh 17vw 1vh 17vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 40vw;
+    width: 44vw;
     margin: 1vh 6vw 5vh 6vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 55vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 51vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
@@ -16625,7 +16622,7 @@ body {
     margin-bottom: 2vh;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(49vw / 7);
+    width: calc(58vw / 7);
   }
   .dashboard-body .schedule {
     margin: 3vh 3.5vw;
@@ -17401,7 +17398,7 @@ body {
     display: none;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details {
@@ -17410,34 +17407,34 @@ body {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details img {
     width: 27vw;
-    margin: 2vh 13vw 1vh 13vw;
+    margin: 2vh 15vw 1vh 15vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details {
-    margin: 2vh 10vw;
+    margin: 2vh 13vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user .user-details .profile-details p {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .user button {
-    width: 47vw;
+    width: 52vw;
     margin: 1vh 3vw 5vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
-    width: 58vw;
+    width: 65vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     margin-left: 45vw;
     color: #0551A7;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
-    width: 53vw;
+    width: 59vw;
     margin: 3vh 2vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
-    width: calc(50vw / 7);
+    width: calc(56vw / 7);
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month h1, .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .month p {
     font-size: 14px;
