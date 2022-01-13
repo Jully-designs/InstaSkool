@@ -473,6 +473,49 @@
             }
         }
     }
+    .virtual-body{
+        margin: 1vh 1vw;
+        .virtual-illustration{
+            margin-left: 1vw;
+        }
+        .virtual-text{
+            margin: 15vh 2vw 0 1vw;
+            h2{
+                font-size: 36px;
+            }
+            button{
+                padding: 2vh 1vw;
+                width: 17vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .dash-header{
+            .virtual-dash-body{
+                .virtual-class{
+                    margin: 10vh 5vw;
+                    .class-text{
+                        width: 40vw;
+                    }
+                    .class-btn{
+                        button{
+                            width: 20vw;
+                            margin: 20vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        .schedule{
+            .week{
+                font-size: 14px;
+                text-align: center;
+                padding: 2vh 1vw;
+            }
+        }
+    }
 }
 @media screen and (max-width:768px) {
     .menu-icon{
@@ -1084,6 +1127,198 @@
                 padding: 1vh 2vw;
                 margin: 5vh 40vw;
             }
+        }
+    }
+    .virtual-dash{
+        .dash-header{
+            .dash-top{
+                @include rowDisplayFlex;
+                
+                h3{
+                    margin: 3vh 0 3vh 2vw;
+                }
+            }
+        }
+        .virtual-side{
+            display: none;
+            .closebtn{
+                display: block;
+                color: #ffffff;
+                font-size: 48px;
+                font-weight: 700;
+                margin-left: 25vw;
+            }
+            &.sidenav-show{
+                display: block;
+                z-index: 1;
+                background-color: $pryColor;
+                position: fixed;
+                .logo{
+                    margin: 3vh 5vw;
+                }
+                ul{
+                    li{
+                        margin: 5vh 5vw 4vh 5vw ;
+                    }
+                }
+            }
+        }
+    }
+    .virtual-body{
+        margin: 1vh 1vw;
+        @include columnDisplayFlex;
+        .virtual-illustration{
+            margin-left: 0;
+            order: 2;
+            text-align: center;
+            img{
+                width: 50vw;
+            }
+        }
+        .virtual-text{
+            order: 1;
+            margin: 5vh 0 0 0;
+            text-align: center;
+            h2{
+                font-size: 36px;
+            }
+            button{
+                padding: 2vh 2vw;
+                width:22vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .dash-header{
+            .virtual-dash-body{
+                .recorded-videos{
+                    .video-item{
+                        margin-left: 5vw;
+                        video{
+                            width: 25vw;
+                        }
+                    }
+                }
+                .click-to-view{
+                    margin-left: 5vw;
+                }
+            }
+        }
+    }
+    .live-section{
+        @include columnDisplayFlex;
+        .live-video{
+            .video-item{
+                margin: 1vh 3vw 5vh 3vw;
+                video{
+                    width: 94vw;
+                }
+            }
+        }
+        .live-participants{
+            margin: 1vh 5vw 5vh 5vw;
+            img{
+                width: 15vw;
+                height: 20vh;
+            }
+        }
+        .live-chat{
+            margin: 1vh 15vw;
+            .live-header,.chat-section{
+                width: 60vw;
+            }
+            .chat-box{
+                input{
+                    width: 60vw;
+                }
+            }
+        }
+    }
+    .dashboard-body{
+       .virtual-dashboard-top{
+           @include columnDisplayFlex;
+           width: 100vw;
+           .dashboard{
+               .dash-videos{
+                   .video-item{
+                       video{
+                           width: 25vw;
+                           margin: 2vh 3vw;
+                       }
+                   }
+               }
+           }
+           .user-calendar{
+               display: none;
+               .user{
+                   width: 33vw;
+                   margin: 3vh 3vw;
+                   button{
+                       width: 25vw;
+                   }
+               }
+               &.sidenav-show{
+                   display: block;
+                   z-index: 1;
+                   background-color: #f3f7fb;
+                   position: fixed;
+                   right: 0px;
+                   top: 0;
+                   width: 38vw;
+                   .closebtn{
+                       font-size: 48px;
+                       font-weight: 700;
+                       margin-left: 30vw;
+                       color: $pryColor;
+                   }
+               }
+               .calendar-body{
+                   width: 33vw;
+                   margin: 3vh 3vw;
+                   .days div {
+                        font-size: 10px;
+                        font-weight: 400;
+                        margin: 0.1vh 0;
+                        width: calc(32vw / 7);
+                        height: 5vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: background-color 0.2s;
+                    }
+                }
+            }
+        } 
+        .schedule{
+            .week{
+                font-size: 14px;
+                text-align: center;
+                margin: 1vh 0.4vw;
+                color: $pryColor;
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+                padding: 2vh 0.5vw;
+            }
+            .week-schedule{
+                .daily-topic{
+                    .topic{
+                        width: 14vw;
+                        margin: 2vh 0.8vw;
+                        padding: 1vh 1vw;
+                        P{
+                            margin: 1vh 1vw 2vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .live-dash{
+        @include rowDisplayFlex;
+        justify-content: space-between;
+        .menu-icon{
+            color: #ffffff;
+            margin-right: 5vw;
+            display: block;
         }
     }
 }
@@ -2165,6 +2400,128 @@
             @include successStyle-small;
         }
     }
+    .virtual-nav{
+        img{
+            width: 25vw;
+        }
+    }
+    .virtual-body{
+        .virtual-text{
+            h2{
+                font-size: 36px;
+            }
+            button{
+                padding: 2vh 2vw;
+                width: 30vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .dash-header{
+            .virtual-dash-body{
+                .virtual-class{
+                    .class-text{
+                        width: 48vw;
+                    }
+                    .class-btn{
+                        button{
+                            width: 25vw;
+                        }
+                    }
+                }
+                .recorded-videos{
+                    .video-item{
+                        video{
+                            width: 40vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        .virtual-dashboard-top{
+            @include columnDisplayFlex;
+            width: 100vw;
+            .dashboard{
+                .dash-videos{
+                    .video-item{
+                        video{
+                            width: 25vw;
+                            margin: 2vh 3vw;
+                        }
+                    }
+                }
+            }
+            .user-calendar{
+                display: none;
+                .user{
+                    width: 37vw;
+                    margin: 3vh 1.5vw;
+                    border-radius: 15px;
+                    button{
+                        width: 30vw;
+                    }
+                }
+                &.sidenav-show{
+                    display: block;
+                    z-index: 1;
+                    background-color: #f3f7fb;
+                    position: fixed;
+                    right: 0px;
+                    top: 0;
+                    width: 40vw;
+                    .closebtn{
+                        font-size: 48px;
+                        font-weight: 700;
+                        margin-left: 30vw;
+                        color: $pryColor;
+                    }
+                }
+                .calendar-body{
+                    width: 37vw;
+                    margin: 3vh 1.5vw;
+                    border-radius: 20px;
+                    .days div {
+                        width: calc(37vw / 7);
+                    }
+                }
+            }
+        } 
+        .schedule{
+            .week{
+                font-size: 16px;
+                text-align: center;
+                margin: 1vh 1.5vw;
+                color: $pryColor;
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+                padding: 2vh 0.5vw;
+            }
+            .week-schedule{
+                flex-wrap: wrap;
+                margin: 1vh 5vw;
+                .daily-topic{
+                    .topic{
+                        width: 25vw;
+                        margin: 2vh 1.5vw;
+                        padding: 1vh 1vw;
+                        P{
+                            margin: 1vh 1vw 2vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+     .live-dash{
+         @include rowDisplayFlex;
+         justify-content: space-between;
+         .menu-icon{
+             color: #ffffff;
+             margin-right: 5vw;
+             display: block;
+         }
+     }
 }
 @media screen and (max-width: 425px){
     .onboarding-nav{
@@ -3053,6 +3410,129 @@
             }
         }
     }
+    .live-dash{
+        .navbar-brand{
+            a{
+                padding: 2px;
+            }
+        }
+    }
+    .virtual-nav{
+        img{
+            width: 35vw;
+        }
+    }
+    .virtual-body{
+        .virtual-text{
+            margin-top: 10vh;
+            h2{
+                font-size: 30px;
+            }
+            button{
+                padding: 2vh 2vw;
+                width: 37vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .virtual-side{
+            .closebtn{
+                margin-left: 40vw;
+            }
+        }
+        .dash-header{
+            .virtual-dash-body{
+                .virtual-class{
+                    @include columnDisplayFlex;
+                    padding: 2vh 3vw;
+                    .class-text{
+                        width: 100%;
+                        padding: 3vh 1vw;
+                    }
+                    .class-btn{
+                        button{
+                            width: 35vw;
+                            margin: 2vh 2vw;
+                            padding: 1vh 2vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        .virtual-dashboard-top{
+            @include columnDisplayFlex;
+            width: 100vw;
+            .dashboard{
+                .dash-videos{
+                    .video-item{
+                        video{
+                            width: 25vw;
+                            margin: 2vh 3vw;
+                        }
+                        p{
+                            width: 25vw;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .dash-header{
+                    margin: 4vh 5vw 1vh 5vw;
+                }
+            }
+            .user-calendar{
+                display: none;
+                .user{
+                    width: 50vw;
+                    margin: 3vh 2vw;
+                    border-radius: 15px;
+                    button{
+                        width: 35vw;
+                        margin: 1vh 7vw 5vh 7vw;
+                    }
+                }
+                &.sidenav-show{
+                    width: 55vw;
+                    .closebtn{
+                        margin-left: 43vw;
+                    }
+                }
+                .calendar-body{
+                    width: 50vw;
+                    margin: 3vh 2vw;
+                    border-radius: 20px;
+                    .days div {
+                        width: calc(48vw / 7);
+                    }
+                }
+            }
+        } 
+        .schedule{
+            .week{
+                font-size: 16px;
+                text-align: center;
+                margin: 1vh 3vw;
+                color: $pryColor;
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+                padding: 2vh 0.5vw;
+            }
+            .week-schedule{
+                flex-wrap: wrap;
+                margin: 1vh 6vw;
+                .daily-topic{
+                    .topic{
+                        width: 35vw;
+                        margin: 2vh 3vw;
+                        padding: 1vh 1vw;
+                        P{
+                            margin: 1vh 1vw 2vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 375px) {
     .onboarding-nav{
@@ -3095,7 +3575,6 @@
                     width: 85vw;
                     img{
                         top: 150px;
-                        // display: block;
                         position: static;
                         left: 310px;
                         width: 20px;
@@ -3778,6 +4257,140 @@
             }
         }
     }
+    .live-dash{
+        .navbar-brand{
+            a{
+                padding: 5px;
+            }
+        }
+    }
+    .virtual-nav{
+        img{
+            width: 35vw;
+        }
+    }
+    .virtual-body{
+        .virtual-text{
+            margin-top: 10vh;
+            h2{
+                font-size: 28px;
+            }
+            button{
+                padding: 2vh 2vw;
+                width: 42vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .virtual-side{
+            .closebtn{
+                margin-left: 45vw;
+            }
+        }
+        .dash-header{
+            .virtual-dash-body{
+                .virtual-class{
+                    .class-btn{
+                        button{
+                            width: 40vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        .virtual-dashboard-top{
+            @include columnDisplayFlex;
+            width: 100vw;
+            .dashboard{
+                .dash-videos{
+                    .video-item{
+                        video{
+                            width: 25vw;
+                            margin: 2vh 3vw;
+                        }
+                        p{
+                            width: 25vw;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .dash-header{
+                    margin: 4vh 5vw 2vh 5vw;
+                }
+            }
+            .user-calendar{
+                display: none;
+                .user{
+                    width: 51vw;
+                    margin: 3vh 2vw;
+                    .user-details{
+                        @include columnDisplayFlex;
+                        img{
+                            width: 25vw;
+                            margin: 6vh 13vw 1vh 13vw;
+                        }
+                        .profile-details{
+                            margin: 2vh 10vw;
+                        }
+                    }
+                    button{
+                        width: 40vw;
+                        margin: 1vh 6vw 5vh 6vw;
+                    }
+                }
+                &.sidenav-show{
+                    width: 55vw;
+                    .closebtn{
+                        margin-left: 45vw;
+                        color: $pryColor;
+                    }
+                }
+                .calendar-body{
+                    .calendar{
+                        .calendar-header{
+                            font-size: 14px;
+                        }
+                    }
+                    width: 51vw;
+                    margin: 3vh 2vw;
+                    .month{
+                        h1{
+                            margin-bottom: 2vh;
+                        }
+                    }
+                    .days div {
+                        width: calc(49vw / 7);
+                    }
+                }
+            }
+        } 
+        .schedule{
+            margin: 3vh 3.5vw;
+            .week{
+                font-size: 14px;
+                text-align: center;
+                margin: 1vh 2vw;
+                color: $pryColor;
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+                padding: 2vh 0.5vw;
+            }
+            .week-schedule{
+                .daily-topic{
+                    .topic{
+                        width: 35vw;
+                        margin: 2vh 2vw;
+                        padding: 1vh 1vw;
+                        P{
+                            margin: 1vh 1vw 2vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 @media screen and (max-width:320px) {
     .onboarding-nav{
@@ -4519,4 +5132,149 @@
             }
         }
     }
+    .live-dash{
+        .navbar-brand{
+            a{
+                padding: 10px;
+            }
+        }
+    }
+    .virtual-nav{
+        img{
+            width: 30vw;
+        }
+    }
+    .virtual-body{
+        .virtual-text{
+            order: 1;
+            margin: 7vh 3vw 0 3vw;
+            text-align: center;
+            p{
+                line-height: 1.2;
+            }
+            h2{
+                font-size: 24px;
+            }
+            button{
+                padding: 2vh 2vw;
+                width: 47vw;
+            }
+        }
+    }
+    .virtual-dash{
+        .virtual-side{
+            .closebtn{
+                margin-left: 45vw;
+            }
+        }
+        .dash-header{
+            .virtual-dash-body{
+                .virtual-class{
+                    .class-btn{
+                        button{
+                            width: 50vw;
+                        }
+                    }
+                }
+                .click-to-view{
+                    margin: 10vh 1vw;
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        .virtual-dashboard-top{
+            @include columnDisplayFlex;
+            width: 100vw;
+            .dashboard{
+                .dash-videos{
+                    .video-item{
+                        video{
+                            width: 39vw;
+                            margin: 2vh 3vw;
+                        }
+                        p{
+                            width: 39vw;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .user-calendar{
+                display: none;
+                .user{
+                    width: 53vw;
+                    margin: 3vh 2vw;
+                    .user-details{
+                        @include columnDisplayFlex;
+                        img{
+                            width: 27vw;
+                            margin: 2vh 13vw 1vh 13vw;
+                        }
+                        .profile-details{
+                            margin: 2vh 10vw;
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    button{
+                        width: 47vw;
+                        margin: 1vh 3vw 5vh 3vw;
+                    }
+                }
+                &.sidenav-show{
+                    width: 58vw;
+                    .closebtn{
+                        margin-left: 45vw;
+                        color: $pryColor;
+                    }
+                }
+                .calendar-body{
+                    .calendar{
+                        .calendar-header{
+                            font-size: 14px;
+                        }
+                    }
+                    width: 53vw;
+                    margin: 3vh 2vw;
+                    .days div {
+                        width: calc(50vw / 7);
+                    }
+                    .month{
+                        h1,p{
+                            font-size: 14px;
+                        }
+                        h1{
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+                }
+            }
+        } 
+        .schedule{
+            margin: 3vh 3.5vw;
+            .week{
+                font-size: 14px;
+                text-align: center;
+                margin: 1vh 2vw;
+                color: $pryColor;
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+                padding: 2vh 0.5vw;
+            }
+            .week-schedule{
+                .daily-topic{
+                    .topic{
+                        width: 35vw;
+                        margin: 2vh 2vw;
+                        padding: 1vh 1vw;
+                        P{
+                            margin: 1vh 1vw 2vh 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
