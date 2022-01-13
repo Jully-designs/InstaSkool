@@ -3999,8 +3999,11 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    height: 120%;
-    overflow: auto;
+    overflow: hidden;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    display: block;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
@@ -9588,8 +9591,11 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    height: 120%;
-    overflow: auto;
+    overflow: hidden;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    display: block;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
@@ -15810,8 +15816,11 @@ body {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    height: 120%;
-    overflow: auto;
+    overflow: hidden;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    display: block;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
