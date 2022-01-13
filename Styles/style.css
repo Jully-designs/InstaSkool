@@ -3999,7 +3999,7 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -4013,6 +4013,9 @@ footer .footer .copyright {
     width: 50vw;
     margin: 3vh 2vw;
     border-radius: 20px;
+  }
+  .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
+    height: 90%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
     width: calc(48vw / 7);
@@ -9591,7 +9594,7 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -9605,6 +9608,9 @@ footer .footer .copyright {
     width: 50vw;
     margin: 3vh 2vw;
     border-radius: 20px;
+  }
+  .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
+    height: 90%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
     width: calc(48vw / 7);
@@ -15816,7 +15822,7 @@ body {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -15830,6 +15836,9 @@ body {
     width: 50vw;
     margin: 3vh 2vw;
     border-radius: 20px;
+  }
+  .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
+    height: 90%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .days div {
     width: calc(48vw / 7);
