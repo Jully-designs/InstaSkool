@@ -4743,11 +4743,11 @@ footer .footer .copyright {
     width: 100vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item video {
-    width: 25vw;
+    width: 40vw;
     margin: 2vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item p {
-    width: 25vw;
+    width: 40vw;
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-header {
@@ -10329,11 +10329,11 @@ footer .footer .copyright {
     width: 100vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item video {
-    width: 25vw;
+    width: 40vw;
     margin: 2vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item p {
-    width: 25vw;
+    width: 40vw;
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-header {
@@ -12113,7 +12113,7 @@ main .videos-uploaded button:hover {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
 }
 .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar {
-  height: 58vh;
+  height: auto;
 }
 .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body .calendar .calendar-header {
   text-align: center;
@@ -16545,11 +16545,11 @@ body {
     width: 100vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item video {
-    width: 25vw;
+    width: 40vw;
     margin: 2vh 3vw;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item p {
-    width: 25vw;
+    width: 40vw;
     font-size: 14px;
   }
   .dashboard-body .virtual-dashboard-top .dashboard .dash-header {
