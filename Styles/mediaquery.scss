@@ -3495,6 +3495,7 @@
                 &.sidenav-show{
                     width: 55vw;
                     height: 120%;
+                    overflow: auto;
                     .closebtn{
                         display: block;
                         margin-left: 43vw;

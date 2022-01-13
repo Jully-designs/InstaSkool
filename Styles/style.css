@@ -4000,6 +4000,7 @@ footer .footer .copyright {
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
     height: 120%;
+    overflow: auto;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
@@ -9588,6 +9589,7 @@ footer .footer .copyright {
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
     height: 120%;
+    overflow: auto;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
@@ -15809,6 +15811,7 @@ body {
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
     height: 120%;
+    overflow: auto;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
     display: block;
