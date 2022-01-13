@@ -198,6 +198,9 @@
             }
         }
         .user-calendar{
+            .closebtn{
+                display: none;
+            }
             .user{
                 width: 23vw;
                 background-color: #ffffff;

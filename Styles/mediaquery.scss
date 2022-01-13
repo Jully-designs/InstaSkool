@@ -3494,11 +3494,16 @@
                 }
                 &.sidenav-show{
                     width: 55vw;
+                    height: 120%;
                     .closebtn{
+                        display: block;
                         margin-left: 43vw;
                     }
                 }
                 .calendar-body{
+                    // .calendar{
+                    //     height: 120%;
+                    // }
                     width: 50vw;
                     margin: 3vh 2vw;
                     border-radius: 20px;
@@ -4349,6 +4354,7 @@
                 }
                 .calendar-body{
                     .calendar{
+                        // height: 120%;
                         .calendar-header{
                             font-size: 14px;
                         }

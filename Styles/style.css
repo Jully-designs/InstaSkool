@@ -3999,8 +3999,10 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
+    height: 120%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
+    display: block;
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
@@ -9585,8 +9587,10 @@ footer .footer .copyright {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
+    height: 120%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
+    display: block;
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
@@ -12065,6 +12069,9 @@ main .videos-uploaded button:hover {
 }
 .dashboard-body .virtual-dashboard-top .dashboard .dash-videos .video-item p {
   text-align: center;
+}
+.dashboard-body .virtual-dashboard-top .user-calendar .closebtn {
+  display: none;
 }
 .dashboard-body .virtual-dashboard-top .user-calendar .user {
   width: 23vw;
@@ -15801,8 +15808,10 @@ body {
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show {
     width: 55vw;
+    height: 120%;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar.sidenav-show .closebtn {
+    display: block;
     margin-left: 43vw;
   }
   .dashboard-body .virtual-dashboard-top .user-calendar .calendar-body {
