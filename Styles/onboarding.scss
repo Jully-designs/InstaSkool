@@ -327,10 +327,10 @@ main{
             .step-1{
                 background-color: $pryColor;
                 width: 264px;
-                height: 232px;
+                height: 36vh;
                 margin: 2vh 2vw;
                 color: #ffffff;
-                padding: 4vh 0;
+                // padding: 4vh 0;
                 p{
                     text-align: center;
                 }
@@ -342,7 +342,7 @@ main{
             .step-2{
                 background-color: rgba(255, 137, 62, 1);
                 width: 264px;
-                height: 292px;
+                height: 45vh;
                 margin: -7vh 2vw 2vh 2vw;
                 color: #ffffff;
                 padding: 4vh 0;
@@ -357,7 +357,7 @@ main{
             .step-3{
                 background-color: rgba(153, 191, 33, 1);
                 width: 264px;
-                height: 348px;
+                height: 53vh;
                 margin: -15vh 2vw 2vh 2vw;
                 color: #ffffff;
                 padding: 4vh 0;
@@ -372,7 +372,7 @@ main{
             .step-4{
                 background-color: rgba(246, 198, 27, 1);
                 width: 264px;
-                height: 408px;
+                height: 62vh;
                 margin: -23vh 2vw 2vh 2vw;
                 color: #ffffff;
                 padding: 4vh 0;

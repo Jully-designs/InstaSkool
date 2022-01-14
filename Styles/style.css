@@ -477,10 +477,9 @@ main {
 .grouping .start-learning .steps .step-1 {
   background-color: #0551A7;
   width: 264px;
-  height: 232px;
+  height: 36vh;
   margin: 2vh 2vw;
   color: #ffffff;
-  padding: 4vh 0;
 }
 .grouping .start-learning .steps .step-1 p {
   text-align: center;
@@ -492,7 +491,7 @@ main {
 .grouping .start-learning .steps .step-2 {
   background-color: #ff893e;
   width: 264px;
-  height: 292px;
+  height: 45vh;
   margin: -7vh 2vw 2vh 2vw;
   color: #ffffff;
   padding: 4vh 0;
@@ -507,7 +506,7 @@ main {
 .grouping .start-learning .steps .step-3 {
   background-color: #99bf21;
   width: 264px;
-  height: 348px;
+  height: 53vh;
   margin: -15vh 2vw 2vh 2vw;
   color: #ffffff;
   padding: 4vh 0;
@@ -522,7 +521,7 @@ main {
 .grouping .start-learning .steps .step-4 {
   background-color: #f6c61b;
   width: 264px;
-  height: 408px;
+  height: 62vh;
   margin: -23vh 2vw 2vh 2vw;
   color: #ffffff;
   padding: 4vh 0;
@@ -941,6 +940,7 @@ footer .footer .copyright {
   }
   .grouping .start-learning .steps .step-1, .grouping .start-learning .steps .step-2, .grouping .start-learning .steps .step-3, .grouping .start-learning .steps .step-4 {
     width: 280px;
+    padding: 2vh 0;
   }
   .grouping .start-learning .steps .step-1 i, .grouping .start-learning .steps .step-2 i, .grouping .start-learning .steps .step-3 i, .grouping .start-learning .steps .step-4 i {
     margin-left: 12vw;
@@ -958,14 +958,14 @@ footer .footer .copyright {
     margin: 15vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 7vh;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 5vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-bottom: 8vh;
   }
   .grouping .guide1 .guide-info {
@@ -2127,19 +2127,19 @@ footer .footer .copyright {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 20vw 8vh 20vw;
+    margin: 13vh 20vw 5vh 20vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 20vw 10vh 20vw;
+    margin: 16vh 20vw 8vh 20vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 20vw 12vh 20vw;
+    margin: 18vh 20vw 10vh 20vw;
   }
   .grouping .guide1 {
     margin: 5vh 2vw;
@@ -3278,19 +3278,19 @@ footer .footer .copyright {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 28vw 8vh 28vw;
+    margin: 14vh 28vw 5vh 28vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 28vw 10vh 28vw;
+    margin: 17vh 28vw 8vh 28vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 28vw 12vh 28vw;
+    margin: 20vh 28vw 8vh 28vw;
   }
   .grouping .guide1 {
     border-radius: 30px;
@@ -4183,25 +4183,25 @@ footer .footer .copyright {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
-    margin: 7vh 33vw 4vh 33vw;
+    margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 9vh 33vw 4vh 33vw;
+    margin: 15vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 12vh 33vw 4vh 33vw;
+    margin: 18vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 14vh 33vw 4vh 33vw;
+    margin: 21vh 33vw 6vh 33vw;
   }
   .grouping .guide1 .guide-info {
     display: flex;
@@ -6537,6 +6537,7 @@ footer .footer .copyright {
   }
   .grouping .start-learning .steps .step-1, .grouping .start-learning .steps .step-2, .grouping .start-learning .steps .step-3, .grouping .start-learning .steps .step-4 {
     width: 280px;
+    padding: 2vh 0;
   }
   .grouping .start-learning .steps .step-1 i, .grouping .start-learning .steps .step-2 i, .grouping .start-learning .steps .step-3 i, .grouping .start-learning .steps .step-4 i {
     margin-left: 12vw;
@@ -6554,14 +6555,14 @@ footer .footer .copyright {
     margin: 15vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 7vh;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 5vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-bottom: 8vh;
   }
   .grouping .guide1 .guide-info {
@@ -7723,19 +7724,19 @@ footer .footer .copyright {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 20vw 8vh 20vw;
+    margin: 13vh 20vw 5vh 20vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 20vw 10vh 20vw;
+    margin: 16vh 20vw 8vh 20vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 20vw 12vh 20vw;
+    margin: 18vh 20vw 10vh 20vw;
   }
   .grouping .guide1 {
     margin: 5vh 2vw;
@@ -8874,19 +8875,19 @@ footer .footer .copyright {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 28vw 8vh 28vw;
+    margin: 14vh 28vw 5vh 28vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 28vw 10vh 28vw;
+    margin: 17vh 28vw 8vh 28vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 28vw 12vh 28vw;
+    margin: 20vh 28vw 8vh 28vw;
   }
   .grouping .guide1 {
     border-radius: 30px;
@@ -9779,25 +9780,25 @@ footer .footer .copyright {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
-    margin: 7vh 33vw 4vh 33vw;
+    margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 9vh 33vw 4vh 33vw;
+    margin: 15vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 12vh 33vw 4vh 33vw;
+    margin: 18vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 14vh 33vw 4vh 33vw;
+    margin: 21vh 33vw 6vh 33vw;
   }
   .grouping .guide1 .guide-info {
     display: flex;
@@ -12766,6 +12767,7 @@ body {
   }
   .grouping .start-learning .steps .step-1, .grouping .start-learning .steps .step-2, .grouping .start-learning .steps .step-3, .grouping .start-learning .steps .step-4 {
     width: 280px;
+    padding: 2vh 0;
   }
   .grouping .start-learning .steps .step-1 i, .grouping .start-learning .steps .step-2 i, .grouping .start-learning .steps .step-3 i, .grouping .start-learning .steps .step-4 i {
     margin-left: 12vw;
@@ -12783,14 +12785,14 @@ body {
     margin: 15vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 7vh;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 5vh 2vw 2vh 2vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-bottom: 8vh;
   }
   .grouping .guide1 .guide-info {
@@ -13952,19 +13954,19 @@ body {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 20vw 8vh 20vw;
+    margin: 13vh 20vw 5vh 20vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 20vw 10vh 20vw;
+    margin: 16vh 20vw 8vh 20vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 15vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 20vw 12vh 20vw;
+    margin: 18vh 20vw 10vh 20vw;
   }
   .grouping .guide1 {
     margin: 5vh 2vw;
@@ -15103,19 +15105,19 @@ body {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 17vh 28vw 8vh 28vw;
+    margin: 14vh 28vw 5vh 28vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 20vh 28vw 10vh 28vw;
+    margin: 17vh 28vw 8vh 28vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 3vh 9vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 23vh 28vw 12vh 28vw;
+    margin: 20vh 28vw 8vh 28vw;
   }
   .grouping .guide1 {
     border-radius: 30px;
@@ -16008,25 +16010,25 @@ body {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-1 i {
-    margin: 7vh 33vw 4vh 33vw;
+    margin: 12vh 33vw 4vh 33vw;
   }
   .grouping .start-learning .steps .step-2 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-2 i {
-    margin: 9vh 33vw 4vh 33vw;
+    margin: 15vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-3 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-3 i {
-    margin: 12vh 33vw 4vh 33vw;
+    margin: 18vh 33vw 5vh 33vw;
   }
   .grouping .start-learning .steps .step-4 {
     margin: 4vh 3vw;
   }
   .grouping .start-learning .steps .step-4 i {
-    margin: 14vh 33vw 4vh 33vw;
+    margin: 21vh 33vw 6vh 33vw;
   }
   .grouping .guide1 .guide-info {
     display: flex;
