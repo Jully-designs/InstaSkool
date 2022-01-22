@@ -1597,8 +1597,9 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 95vw;
+    margin: 8vh 2.5vw 1vh 2.5vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 50vw;
@@ -2493,9 +2494,9 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 97vw;
-    margin-top: 10vh;
+    margin: 8vh 2vw 1vh 2vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 70vw;
@@ -3575,6 +3576,9 @@ footer .footer .copyright {
     overflow-x: hidden;
     transition: 0.5s;
   }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1.5vw 1vh 1.5vw;
+  }
   .dash .dash-body .join-virtual {
     width: 400px;
     margin: 10px;
@@ -4380,6 +4384,9 @@ footer .footer .copyright {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1vw 1vh 1vw;
   }
   .dash .dash-body .join-virtual {
     width: 93vw;
@@ -5203,6 +5210,9 @@ footer .footer .copyright {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 0.5vw 1vh 0.5vw;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;
@@ -7247,8 +7257,9 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 95vw;
+    margin: 8vh 2.5vw 1vh 2.5vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 50vw;
@@ -8143,9 +8154,9 @@ footer .footer .copyright {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 97vw;
-    margin-top: 10vh;
+    margin: 8vh 2vw 1vh 2vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 70vw;
@@ -9225,6 +9236,9 @@ footer .footer .copyright {
     overflow-x: hidden;
     transition: 0.5s;
   }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1.5vw 1vh 1.5vw;
+  }
   .dash .dash-body .join-virtual {
     width: 400px;
     margin: 10px;
@@ -10030,6 +10044,9 @@ footer .footer .copyright {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1vw 1vh 1vw;
   }
   .dash .dash-body .join-virtual {
     width: 93vw;
@@ -10853,6 +10870,9 @@ footer .footer .copyright {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 0.5vw 1vh 0.5vw;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;
@@ -13590,8 +13610,9 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 95vw;
+    margin: 8vh 2.5vw 1vh 2.5vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 50vw;
@@ -14486,9 +14507,9 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .dash .recorded-video-section .video-main video {
+  .dash .recorded-video-section .video-main .video {
     width: 97vw;
-    margin-top: 10vh;
+    margin: 8vh 2vw 1vh 2vw;
   }
   .dash .recorded-video-section .video-main .recorded-side {
     width: 70vw;
@@ -15568,6 +15589,9 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
   }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1.5vw 1vh 1.5vw;
+  }
   .dash .dash-body .join-virtual {
     width: 400px;
     margin: 10px;
@@ -16373,6 +16397,9 @@ body {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 1vw 1vh 1vw;
   }
   .dash .dash-body .join-virtual {
     width: 93vw;
@@ -17196,6 +17223,9 @@ body {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+  }
+  .dash .recorded-video-section .video-main .video {
+    margin: 8vh 0.5vw 1vh 0.5vw;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;

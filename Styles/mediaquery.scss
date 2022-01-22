@@ -985,8 +985,9 @@
             .video-main{
                 margin-top: 2vh;
                 @include columnDisplayFlex;
-                video{
+                .video{
                     width: 95vw;
+                    margin: 8vh 2.5vw 1vh 2.5vw ;
                 }
                 .recorded-side{
                     width: 50vw;
@@ -1968,9 +1969,9 @@
         .recorded-video-section{
             .video-main{
                 @include columnDisplayFlex;
-                video{
+                .video{
                     width: 97vw;
-                    margin-top: 10vh;
+                    margin: 8vh 2vw 1vh 2vw;
                 }
                 .recorded-side{
                     width: 70vw;
@@ -3091,6 +3092,13 @@
             overflow-x: hidden;
             transition: 0.5s;
         }
+        .recorded-video-section{
+            .video-main{
+                .video{
+                    margin: 8vh 1.5vw 1vh 1.5vw;
+                }
+            }
+        }
         .dash-body{
             .join-virtual{
                 width: 400px;
@@ -3963,6 +3971,13 @@
             background-color: #ffffff;
             overflow-x: hidden;
             transition: 0.5s;
+        }
+        .recorded-video-section{
+            .video-main{
+                .video{
+                    margin: 8vh 1vw 1vh 1vw;
+                }
+            }
         }
         .dash-body{
             .join-virtual{
@@ -4860,6 +4875,13 @@
             background-color: #ffffff;
             overflow-x: hidden;
             transition: 0.5s;
+        }
+        .recorded-video-section{
+            .video-main{
+                .video{
+                    margin: 8vh 0.5vw 1vh 0.5vw;
+                }
+            }
         }
         .dash-body{
             .join-virtual{
