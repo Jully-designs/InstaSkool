@@ -375,6 +375,89 @@
             }
         }
     }
+        .signup{
+        .signup-body{
+            .navbar-brand{
+                margin: 0;
+                text-align: center;
+                a{
+                    img{
+                        width: 40vw;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .add-image{
+                .image-add{
+                    width: 40vw;
+                    margin: 5vh auto;
+                    label{
+                        font-size: 30px;
+                        img{
+                            margin: 7vh 15vw;
+                        }
+                    }
+                    input{
+                        position: absolute;
+                        top: 52vh;
+                        left: 44vw;
+                    }
+                }
+                p{
+                    margin: 1vh 40vw;
+                }
+            }
+            .signup-intro{
+                @include columnDisplayFlex;
+                .create-acct{
+                    margin: 0;
+                    p{
+                        padding: 2vh 0;
+                        text-align: center;
+                    }
+                }
+                .existing-user{
+                    .existing{
+                        padding: 0 0 0 0;
+                        text-align: center;
+                    }
+                }
+            }
+            form{
+                input{
+                    width: 60%;
+                    margin: 2vh 12vw;
+                    padding: 2vh 3vw;
+                }
+                .submit{
+                    @include columnDisplayFlex;
+                    order: 9;
+                    div{
+                        flex-grow: 0;
+                        button{
+                           position: relative;
+                           left: 0; 
+                           width: 25vw;
+                           margin: 1vh -2vw;
+                        }
+                    }
+                    p{
+                        width: 70%;
+                        padding: 1vh 3vw;
+                        flex-grow: 0;
+                        line-height: 25px;
+                        margin: 5vh 9vw;
+                        text-align: center;
+                    }
+                }
+                .google{
+                    order: 10;
+                    text-align: center;
+                    margin: 0 10vw;
+                }
+            }
+        }
+    }
     .login{
         .login-body{
             margin: 10vh 15vw;
@@ -396,31 +479,11 @@
     }
     .signup{
         .signup-body{
-            .add-image{
-                .image-add{
-                    margin: 5vh auto;
-                    width: 25vw;
-                    label{
-                        font-size: 30px;
-                        img{
-                            margin: 7vh 8.5vw;
-                        }
-                    }
-                    input{
-                        position: absolute;
-                        top: 60vh;
-                        left: 45vw;
-                    }
-                }
-                p{
-                    margin: 1vh 41.5vw;
-                }
-            }
             form{
                 .submit{
                     div{
                         button{
-                            left: 43vw;
+                            left: 25vw;
                             width: 15vw;
                             padding: 1vh 2vw;
                         }
@@ -492,6 +555,11 @@
     }
     .virtual-dash{
         .dash-header{
+            .dash-top{
+               h3{
+                    margin: 2vh 0 0 -45vw;
+               }
+            }
             .virtual-dash-body{
                 .virtual-class{
                     margin: 10vh 5vw;
@@ -1023,46 +1091,32 @@
     }
     .signup{
         .signup-body{
-            margin: 5vh 2vw;
+            width: 70vw;
+            margin: 5vh 15vw;
             .signup-intro{
                 .create-acct{
                     margin-left: 2vw;
                 }
             }
-            .add-image{
-                p{
-                    margin: 1vh auto;
-                    text-align: center;
-                }
-                .image-add{
-                    margin: 5vh auto;
-                    width: 30vw;
-                    label{
-                        font-size: 30px;
-                        img{
-                            margin: 7vh 10vw;
-                        }
-                    }
-                    input{
-                        position: absolute;
-                        top: 60vh;
-                        left: 44vw;
-                    }
-                }
-            }
-            #form-body{
-                @include columnDisplayFlex;
-            }
             form{
+                input{
+                    width: 65%;
+                    margin: 2vh 12.3vw;
+                }
                 .submit{
                     @include columnDisplayFlex;
+                    div{
+                        button{
+                            left: 30vw;
+                        }
+                    }
                     p{
-                        width: 60vw;
-                        margin: 8vh 15vw;
+                        width: 50vw;
+                        margin: 5vh 10vw;
                     }
                 }
                 .google{
-                    margin: 0 35vw;
+                    margin: 0 20vw;
                 }
             }
         }
@@ -1193,6 +1247,11 @@
     }
     .virtual-dash{
         .dash-header{
+            .dash-top{
+                h3{
+                    margin: 3vh 0 0 -48vw;
+                }
+            }
             .virtual-dash-body{
                 .recorded-videos{
                     .video-item{
@@ -1990,26 +2049,6 @@
                     }
                 }
             }
-            .add-image{
-                .image-add{
-                    width: 40vw;
-                    margin: 5vh auto;
-                    label{
-                        font-size: 30px;
-                        img{
-                            margin: 7vh 15vw;
-                        }
-                    }
-                    input{
-                        position: absolute;
-                        top: 52vh;
-                        left: 44vw;
-                    }
-                }
-                p{
-                    margin: 1vh 40vw;
-                }
-            }
             .signup-intro{
                 @include columnDisplayFlex;
                 .create-acct{
@@ -2030,8 +2069,8 @@
                 display: flex;
                 flex-direction: column;
                 input{
-                    width: 90%;
-                    margin: 2vh 4.5vw;
+                    width: 85%;
+                    margin: 2vh 5.1vw;
                     padding: 2vh 3vw;
                 }
                 input:nth-child(1){
@@ -2067,7 +2106,7 @@
                            position: relative;
                            left: 0; 
                            width: 25vw;
-                           margin: 1vh 35vw;
+                           margin: 1vh 22.5vw;
                         }
                     }
                     p{
@@ -2075,17 +2114,17 @@
                         padding: 1vh 3vw;
                         flex-grow: 0;
                         line-height: 25px;
-                        margin: 5vh 2vw;
+                        margin: 5vh 1.5vw;
                     }
                 }
                 .google{
                     order: 10;
+                    margin: 0 15vw;
                 }
             }
         }
     }
     .login{
-        // height: 100vh;
         .login-body{
             background-color: #ffffff;
             margin: 12vh 0;
@@ -2421,6 +2460,23 @@
     }
     .virtual-dash{
         .dash-header{
+            .live-session{
+                .dash-acct{
+                    p{
+                        margin: 2.5vh 0.5vw;
+                    }
+                    .fas{
+                        width: 2vw;
+                    
+                        margin: 3.5vh 1vw;
+                    }
+                }
+            }
+            .dash-top{
+                h3{
+                    margin: 3vh 0 0 -38vw;
+                }
+            }
             .virtual-dash-body{
                 .virtual-class{
                     .class-text{
@@ -3317,29 +3373,13 @@
     }
     .signup, .login{
         .signup-body{
+            width: 100%;
             margin: 0;
             border-radius: 0;
-            .add-image{
-                .image-add{
-                    width: 45vw;
-                    margin: 5vh auto;
-                    label{
-                        font-size: 30px;
-                        img{
-                            margin: 7vh 15vw;
-                        }
-                    }
-                    input{
-                        position: absolute;
-                        top: 48vh;
-                        left: 44vw;
-                    }
-                }
-                p{
-                    margin: 1vh 37vw;
-                }
-            }
             form{
+                input{
+                    width: 90%;
+                }
                 .submit{
                     div{
                         button{
@@ -3444,6 +3484,11 @@
             }
         }
         .dash-header{
+            .dash-top{
+                h3{
+                    margin: 3vh 0 0 -20vw;
+                }
+            }
             .virtual-dash-body{
                 .virtual-class{
                     @include columnDisplayFlex;
@@ -4299,6 +4344,18 @@
             }
         }
         .dash-header{
+            .dash-top{
+                h3{
+                    margin: 3vh 0 0 -11vw;
+                }
+            }
+            .live-session{
+                .dash-acct{
+                    .fas{
+                        width: 3vw;
+                    }
+                }
+            }
             .virtual-dash-body{
                 .virtual-class{
                     .class-btn{
@@ -5180,6 +5237,28 @@
             }
         }
         .dash-header{
+            .dash-top{
+                padding: 3vh 1vw;
+                h3{
+                    margin: 3vh 0 0 -9vw;
+                }
+            }
+            .live-session{
+                .dash-acct{
+                    .fas{
+                        margin-top: 4vh;
+                    }
+                    p{
+                        color: $pryColor;
+                        margin-top: 3vh;
+                    }
+                    .profile-img{
+                        width: 8vw;
+                        height: 5vh;
+                        margin: 3vh 0 0 0;
+                    }
+                }
+            }
             .virtual-dash-body{
                 .virtual-class{
                     .class-btn{

@@ -1,6 +1,16 @@
 @import "mixins";
 @import "variables";
 
+// @media (min-width: 731px){
+//     .svp-layout-default-0:not([is-vertical]) {
+//         display: -ms-flexbox;
+//         display: -webkit-flex;
+//         display: flex;
+//         -ms-flex-direction: column;
+//         -webkit-flex-direction: column;
+//         flex-direction: column;
+//     }
+// }
 .dash-header{
     .nav-dash{
         background-color: $whiteColor;
@@ -688,14 +698,14 @@
     .recorded-video-section{
         .video-main{
             @include rowDisplayFlex;
-            video{
+            .video{
                 width: 55vw;
-                margin: 2vh 0 1vh 1.5vw;
+                margin: 8vh 1.5vw 1vh 3.5vw;
                 border-radius: 4px;
             }
             .recorded-side{
                 background-color: $whiteColor;
-                margin: 14vh 0 0 2vw;
+                margin: 8vh 0 0 2vw;
                 padding: 2vh 2vw;
                 border-radius: 8px;
                 width: 22vw;
@@ -766,4 +776,15 @@
         }
     }
 }
+
+
+// .svp-layout-default-0:not([is-vertical]) {
+//     display: -ms-flexbox;
+//     display: -webkit-flex;
+//     display: flex;
+//     -ms-flex-direction: column;
+//     -webkit-flex-direction: column;
+//     flex-direction: column;
+// }
+
 @import "mediaquery";
