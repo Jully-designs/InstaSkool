@@ -5212,7 +5212,7 @@ footer .footer .copyright {
     transition: 0.5s;
   }
   .dash .recorded-video-section .video-main .video {
-    margin: 8vh 0.5vw 1vh 0.5vw;
+    margin: 8vh 0 1vh 0;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;
@@ -10872,7 +10872,7 @@ footer .footer .copyright {
     transition: 0.5s;
   }
   .dash .recorded-video-section .video-main .video {
-    margin: 8vh 0.5vw 1vh 0.5vw;
+    margin: 8vh 0 1vh 0;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;
@@ -17225,7 +17225,7 @@ body {
     transition: 0.5s;
   }
   .dash .recorded-video-section .video-main .video {
-    margin: 8vh 0.5vw 1vh 0.5vw;
+    margin: 8vh 0 1vh 0;
   }
   .dash .dash-body .join-virtual {
     width: 92vw;
