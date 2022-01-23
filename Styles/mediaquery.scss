@@ -3493,6 +3493,7 @@
         }
         .dash-header{
             .dash-top{
+                padding: 3vh 3vw;
                 h3{
                     margin: 3vh 0 0 -20vw;
                 }
@@ -4365,14 +4366,18 @@
         }
         .dash-header{
             .dash-top{
+                padding: 3vh 3vw;
                 h3{
-                    margin: 3vh 0 0 -11vw;
+                    margin: 3vh 0 0 -12vw;
                 }
             }
             .live-session{
                 .dash-acct{
                     .fas{
                         width: 3vw;
+                    }
+                    p{
+                        color: $pryColor;
                     }
                 }
             }
