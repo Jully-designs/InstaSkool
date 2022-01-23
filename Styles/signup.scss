@@ -45,8 +45,20 @@
                 border-radius: 40px;
                 border: solid 2px $pryColor;
             }
-            :-ms-placeholder{
-                padding: 0 4vw;
+            ::-webkit-input-placeholder {
+                color: $pryColor;
+                font-style: italic;
+                font-weight: 500;
+            }
+            :-ms-input-placeholder{
+                color: $pryColor;
+                font-style: italic;
+                font-weight: 500;
+            }
+            ::placeholder{
+                color: $pryColor;
+                font-style: italic;
+                font-weight: 500;
             }
             .submit{
                 margin-top: 30px;
