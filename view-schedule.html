@@ -20,7 +20,7 @@
 
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="JS/data-table.js"></script> -->
+    <script src="JS/data-table.js"></script>
 
     <!-- DataTables -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
@@ -49,39 +49,41 @@
         <section class="table-header">
             <p>Schedule Table</p>
         </section>
-        <table id="table_id">
-            <thead>
-                <tr>
-                    <th>S/N</th>
-                    <th>Day of the Week</th>
-                    <th>Date</th>
-                    <th>Subject</th>
-                    <th>Topic</th>
-                    <th>Class Time</th>
-                    <th>Class Tutor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Tuesday</td>
-                    <td>25/01/2022</td>
-                    <td>Government</td>
-                    <td>The Colonization Story</td>
-                    <td>9:00am</td>
-                    <td>Mr. Adejimi</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Monday</td>
-                    <td>24/01/2022</td>
-                    <td>Biology</td>
-                    <td>Introduction to Cell Theory</td>
-                    <td>12:00pm</td>
-                    <td>Dr. T.O Shobowale</td>
-                </tr>
-            </tbody>
-        </table>
+        <div style="overflow-x: auto;">
+            <table id="table_id">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Day of the Week</th>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Topic</th>
+                        <th>Class Time</th>
+                        <th>Class Tutor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Tuesday</td>
+                        <td>25/01/2022</td>
+                        <td>Government</td>
+                        <td>The Colonization Story</td>
+                        <td>9:00am</td>
+                        <td>Mr. Adejimi</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Monday</td>
+                        <td>24/01/2022</td>
+                        <td>Biology</td>
+                        <td>Introduction to Cell Theory</td>
+                        <td>12:00pm</td>
+                        <td>Dr. T.O Shobowale</td>
+                    </tr>
+                </tbody>
+            </table>
+       </div>
     </section>
     <script src="JS/index.js"></script>
 </body>
