@@ -188,8 +188,13 @@
 }
 .schdule-table{
     margin: 3vh 3vw;
-    .dataTables_wrapper .dataTables_length select{
-        margin-bottom: 2vh;
+    .dataTables_wrapper {
+        .dataTables_length select{
+            margin-bottom: 2vh;
+        }
+        .dataTables_filter{
+            margin-bottom: 2vh;
+        }
     }
     table,th,td,tr{
         border: solid 1px black;

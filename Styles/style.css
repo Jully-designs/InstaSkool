@@ -12086,6 +12086,9 @@ main .videos-uploaded button:hover {
 .schdule-table .dataTables_wrapper .dataTables_length select {
   margin-bottom: 2vh;
 }
+.schdule-table .dataTables_wrapper .dataTables_filter {
+  margin-bottom: 2vh;
+}
 .schdule-table table, .schdule-table th, .schdule-table td, .schdule-table tr {
   border: solid 1px black;
   border-collapse: collapse;
