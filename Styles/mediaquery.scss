@@ -985,6 +985,9 @@
             .video-main{
                 margin-top: 2vh;
                 @include columnDisplayFlex;
+                .video-player{
+                    width: 95vw;
+                }
                 .video{
                     width: 95vw;
                     margin: 8vh 2.5vw 1vh 2.5vw ;
@@ -1382,6 +1385,22 @@
             color: #ffffff;
             margin-right: 5vw;
             display: block;
+        }
+    }
+    .schedule-form{
+        margin: 5vh 15vw;
+        width: 70vw;
+        .schedule-header{
+            hr{
+                width: 50vw;
+                margin: 3vh 5vw 5vh 5vw;
+            }
+        }
+        input,select{
+            width: 60vw;
+        }
+        button{
+            width: 60vw;
         }
     }
 }
@@ -1803,6 +1822,9 @@
                 margin-right: 5vw;
                 p{
                     padding: 5px 0;
+                }
+                #admin-caret{
+                    display: block;
                 }
                 .fas{
                     width: 2vw;
@@ -3094,6 +3116,9 @@
         }
         .recorded-video-section{
             .video-main{
+                .video-player{
+                    width: 97vw;
+                }
                 .video{
                     margin: 8vh 1.5vw 1vh 1.5vw;
                 }
@@ -3598,6 +3623,22 @@
             }
         }
     }
+    .schedule-form{
+        width: 80vw;
+        margin: 5vh 10vw;
+        .schedule-header{
+            hr{
+                width: 65vw;
+                margin: 3vh 3vw 5vh 3vw;
+            }
+        }
+        input,select{
+            width: 70vw;
+        }
+        button{
+            width: 70vw;
+        }
+    }
 }
 @media screen and (max-width: 375px) {
     .onboarding-nav{
@@ -3980,6 +4021,9 @@
         }
         .recorded-video-section{
             .video-main{
+                .video-player{
+                    width: 100vw;
+                }
                 .video{
                     margin: 8vh 0 1vh 0;
                 }
@@ -4482,6 +4526,19 @@
                     }
                 }
             }
+        }
+    }
+    .schedule-form{
+        width: 90vw;
+        margin: 5vh 5vw;
+        .schedule-header{
+            hr{
+                width: 73vw;
+                margin: 3vh 2.5vw 5vh 2.5vw;
+            }
+        }
+        input,select,button{
+            width: 80vw;
         }
     }
 
@@ -5402,6 +5459,22 @@
                     }
                 }
             }
+        }
+    }
+    .schedule-form{
+        width: 95vw;
+        margin: 5vh 2vw;
+        .schedule-header{
+            h2{
+                font-size: 18px;
+            }
+            hr{
+                width: 80vw;
+                margin: 3vh 2.5vw 5vh 2.5vw;
+            }
+        }
+        input,select,button{
+            width: 85vw;
         }
     }
 

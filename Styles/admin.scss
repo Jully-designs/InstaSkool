@@ -103,6 +103,10 @@
                             }
                             p{
                                 margin-top: 2vh;
+                                a{
+                                    color: black;
+                                    text-decoration: none;
+                                }
                             }
                         }
                     }
@@ -115,11 +119,86 @@
                             }
                             p{
                                 margin-top: 2vh;
+                                a{
+                                    color: black;
+                                    text-decoration: none;
+                                }
                             }
                         }
                     }
                 }
             }
+        }
+    }
+}
+
+.schedule-body{
+    background: linear-gradient(180deg, rgba(45, 109, 181, 0.19) -14.77%, rgba(45, 109, 181, 0) 100%), url(/Images/Pattern.png);
+    background-repeat: no-repeat;
+}
+.schedule-form{
+    background-color: #ffffff;
+    margin: 5vh 25vw;
+    width: 50vw;
+    padding: 8vh 5vw;
+    box-shadow: 0px 5px 20px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    .schedule-header{
+        text-align: center;
+        h2{
+            color: $pryColor;
+        }
+        hr{
+            width: 20vw;
+            color: $pryColor;
+            margin: 3vh 10vw 5vh 10vw;
+        }
+    }
+    input, select{
+        width: 40vw;
+        padding: 2vh 2vw;
+        margin: 2vh 0;
+    }
+    button{
+        width: 40vw;
+        padding: 2vh 2vw;
+        margin: 3vh 0 0 0;
+        font-size: 18px;
+        background-color: #a1c628;
+        color: #ffffff;
+        border: none;
+        transition: background-color 0.5s linear;
+        &:hover{
+            border: solid 1px #a1c628;
+            background-color: #ffffff;
+            color: #a1c628;
+        }
+    }
+}
+.table-header{
+    background-color: $pryColor;
+    padding: 3vh 3vw;
+    margin-bottom: 3vh;
+    width: 94vw;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+}
+.schdule-table{
+    margin: 3vh 3vw;
+    .dataTables_wrapper .dataTables_length select{
+        margin-bottom: 2vh;
+    }
+    table,th,td,tr{
+        border: solid 1px black;
+        border-collapse: collapse;
+    }
+    table{
+        width: 94vw;
+        td,th{
+            padding: 1vh 2vw;
         }
     }
 }

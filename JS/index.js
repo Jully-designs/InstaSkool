@@ -88,4 +88,6 @@ function shwAdmin () {
   shwProfile.classList.toggle("shw-admin-profile");
 }
 
-
+$(document).ready( function () {
+  $('#table_id').DataTable();
+});

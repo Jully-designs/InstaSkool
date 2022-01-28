@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Schedule</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- fontsawesome -->
+    <script src="https://kit.fontawesome.com/b58a06ae82.js" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="JS/data-table.js"></script> -->
+
+    <!-- DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <header class="dash-header">
+        <nav class="nav-dash teacher-dash">
+            <div class="navbar-brand">
+                <section class="menu-bar">
+                    <div class="menu-icon">
+                        <span style="font-size:30px;cursor:pointer">&#9776;</span>
+                    </div>
+                </section>
+                <a href=""><img src="./Images/Instaskool Logo.png" alt=""></a>
+            </div>
+            <div class="dash-acct">
+                <img src="./Images/Icons/notification.png" alt="">
+                <img src="" alt="" class="profile-img">
+                <p>Account</p>
+                <img src="./Images/Icons/caret.png" id="admin-caret" class="fas" alt="">
+            </div>
+        </nav>
+    </header>
+    <section class="schdule-table">
+        <section class="table-header">
+            <p>Schedule Table</p>
+        </section>
+        <table id="table_id">
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Day of the Week</th>
+                    <th>Date</th>
+                    <th>Subject</th>
+                    <th>Topic</th>
+                    <th>Class Time</th>
+                    <th>Class Tutor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tuesday</td>
+                    <td>25/01/2022</td>
+                    <td>Government</td>
+                    <td>The Colonization Story</td>
+                    <td>9:00am</td>
+                    <td>Mr. Adejimi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Monday</td>
+                    <td>24/01/2022</td>
+                    <td>Biology</td>
+                    <td>Introduction to Cell Theory</td>
+                    <td>12:00pm</td>
+                    <td>Dr. T.O Shobowale</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="JS/index.js"></script>
+</body>
+<footer></footer>

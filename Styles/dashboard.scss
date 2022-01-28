@@ -55,7 +55,9 @@
                 height: 30px;
                 margin-right: 1vw;
             }
-            
+            #admin-caret{
+                display: none;
+            }
             .fas{
                 margin: 2.5vh 1vw;
                 cursor: pointer;
@@ -698,9 +700,12 @@
     .recorded-video-section{
         .video-main{
             @include rowDisplayFlex;
+            .video-player{
+                width: 58vw;
+            }
             .video{
                 width: 55vw;
-                margin: 8vh 1.5vw 1vh 3.5vw;
+                margin: 8vh 1vw 1vh 1vw;
                 border-radius: 4px;
             }
             .recorded-side{
