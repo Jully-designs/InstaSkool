@@ -45,45 +45,66 @@
             </div>
         </nav>
     </header>
-    <section class="schdule-table">
-        <section class="table-header">
-            <p>Schedule Table</p>
+    <section class="dash schedule-body">
+        <div class="sidenav">
+            <span class="closebtn">&times;</span>
+            <ul>
+                <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+                <li><a href=""><img src="./Images/Icons/virtual-class.png" alt=""></i>Virtual Class</a></li>
+                <li><a href="javascript:;"><i class="fas fa-users"></i>Students <i class="fas fa-caret-down" onclick="showScheduleList()"></i></i></a></li>
+                <div class="students-drpdwn" id="stdnt-drpdwn">
+                    <ul>
+                        <li><a href="">Add Schedule</a></li>
+                        <li><a href="">View Schedule</a></li>
+                    </ul>
+                </div>
+                <li><a href=""><i class="fas fa-chalkboard-teacher"></i>Teachers</a></li>
+                <li><a href=""><i class="far fa-comment-alt"></i>Forum</a></li>
+                <li><a href=""><i class="fas fa-file-invoice-dollar"></i>Transactions</a></li>
+                <li><a href=""><i class="far fa-calendar-alt"></i>Events</a></li>
+                <li class="settings"><a href=""><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+        </div>
+        <section class="schdule-table">
+            <section class="table-header">
+                <p>Schedule Table</p>
+            </section>
+            <div style="overflow-x: auto;">
+                <table id="table_id">
+                    <thead>
+                        <tr>
+                            <th>S/N</th>
+                            <th>Day of the Week</th>
+                            <th>Date</th>
+                            <th>Subject</th>
+                            <th>Topic</th>
+                            <th>Class Time</th>
+                            <th>Class Tutor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tuesday</td>
+                            <td>25/01/2022</td>
+                            <td>Government</td>
+                            <td>The Colonization Story</td>
+                            <td>9:00am</td>
+                            <td>Mr. Adejimi</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Monday</td>
+                            <td>24/01/2022</td>
+                            <td>Biology</td>
+                            <td>Introduction to Cell Theory</td>
+                            <td>12:00pm</td>
+                            <td>Dr. T.O Shobowale</td>
+                        </tr>
+                    </tbody>
+                </table>
+           </div>
         </section>
-        <div style="overflow-x: auto;">
-            <table id="table_id">
-                <thead>
-                    <tr>
-                        <th>S/N</th>
-                        <th>Day of the Week</th>
-                        <th>Date</th>
-                        <th>Subject</th>
-                        <th>Topic</th>
-                        <th>Class Time</th>
-                        <th>Class Tutor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Tuesday</td>
-                        <td>25/01/2022</td>
-                        <td>Government</td>
-                        <td>The Colonization Story</td>
-                        <td>9:00am</td>
-                        <td>Mr. Adejimi</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Monday</td>
-                        <td>24/01/2022</td>
-                        <td>Biology</td>
-                        <td>Introduction to Cell Theory</td>
-                        <td>12:00pm</td>
-                        <td>Dr. T.O Shobowale</td>
-                    </tr>
-                </tbody>
-            </table>
-       </div>
     </section>
     <script src="JS/index.js"></script>
 </body>

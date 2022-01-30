@@ -92,11 +92,22 @@
     @include rowDisplayFlex;
     .sidenav{
         background-color: $whiteColor;
-        padding: 20px 15px;
+        padding: 20px 10px;
         margin-top: 1px;
         display: block;
         .closebtn{
             display: none;
+        }
+        .students-drpdwn{
+            display: none;
+            background-color: #ffffff;
+            z-index: 1;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            position: absolute;
+            padding: 1vh 1.5vw;
+            &.show{
+                display: block;
+            }
         }
         ul{
             list-style-type: none;

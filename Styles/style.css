@@ -1515,11 +1515,14 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 20vw;
+    margin-left: 25vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
     cursor: pointer;
+  }
+  .dash .sidenav .students-drpdwn {
+    margin: 0 3vw;
   }
   .dash .sidenav-show {
     height: 120%;
@@ -2632,10 +2635,10 @@ footer .footer .copyright {
     order: 1;
   }
   .signup .signup-body form input:nth-child(2) {
-    order: 3;
+    order: 2;
   }
   .signup .signup-body form input:nth-child(3) {
-    order: 2;
+    order: 3;
   }
   .signup .signup-body form input:nth-child(4) {
     order: 4;
@@ -3200,7 +3203,7 @@ footer .footer .copyright {
     transform: translateY(0px);
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 40vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -3591,7 +3594,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 40vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -3757,6 +3760,9 @@ footer .footer .copyright {
     left: 80vw;
   }
 
+  .dash-main .dash .sidenav .students-drpdwn {
+    margin: 0 5vw;
+  }
   .dash-main .dash .admin-dash .admin-main {
     display: flex;
     flex-direction: column;
@@ -4171,7 +4177,7 @@ footer .footer .copyright {
     margin-bottom: 1.5vh;
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 45vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -4426,7 +4432,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 50vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -5278,7 +5284,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 55vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -5860,12 +5866,23 @@ footer .footer .copyright {
 }
 .dash .sidenav {
   background-color: #ffffff;
-  padding: 20px 15px;
+  padding: 20px 10px;
   margin-top: 1px;
   display: block;
 }
 .dash .sidenav .closebtn {
   display: none;
+}
+.dash .sidenav .students-drpdwn {
+  display: none;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  padding: 1vh 1.5vw;
+}
+.dash .sidenav .students-drpdwn.show {
+  display: block;
 }
 .dash .sidenav ul {
   list-style-type: none;
@@ -7270,11 +7287,14 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 20vw;
+    margin-left: 25vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
     cursor: pointer;
+  }
+  .dash .sidenav .students-drpdwn {
+    margin: 0 3vw;
   }
   .dash .sidenav-show {
     height: 120%;
@@ -8387,10 +8407,10 @@ footer .footer .copyright {
     order: 1;
   }
   .signup .signup-body form input:nth-child(2) {
-    order: 3;
+    order: 2;
   }
   .signup .signup-body form input:nth-child(3) {
-    order: 2;
+    order: 3;
   }
   .signup .signup-body form input:nth-child(4) {
     order: 4;
@@ -8955,7 +8975,7 @@ footer .footer .copyright {
     transform: translateY(0px);
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 40vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -9346,7 +9366,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 40vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -9512,6 +9532,9 @@ footer .footer .copyright {
     left: 80vw;
   }
 
+  .dash-main .dash .sidenav .students-drpdwn {
+    margin: 0 5vw;
+  }
   .dash-main .dash .admin-dash .admin-main {
     display: flex;
     flex-direction: column;
@@ -9926,7 +9949,7 @@ footer .footer .copyright {
     margin-bottom: 1.5vh;
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 45vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -10181,7 +10204,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 50vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -11033,7 +11056,7 @@ footer .footer .copyright {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 55vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -12068,11 +12091,15 @@ main .videos-uploaded button:hover {
   color: #a1c628;
 }
 
+.schedule-body {
+  background: linear-gradient(180deg, rgba(45, 109, 181, 0.19) -14.77%, rgba(45, 109, 181, 0) 100%), url(/Images/Pattern.png);
+}
+
 .table-header {
   background-color: #0551A7;
   padding: 3vh 3vw;
   margin-bottom: 3vh;
-  width: 94vw;
+  width: 78vw;
 }
 .table-header p {
   font-size: 20px;
@@ -12081,13 +12108,13 @@ main .videos-uploaded button:hover {
 }
 
 .schdule-table {
-  margin: 3vh 3vw;
+  margin: 3vh 2vw;
 }
 .schdule-table .dataTables_wrapper .dataTables_length select {
-  margin-bottom: 2vh;
+  margin: 1vh 0 4vh 0;
 }
 .schdule-table .dataTables_wrapper .dataTables_filter {
-  margin-bottom: 2vh;
+  margin: 1vh 0 4vh 0;
 }
 .schdule-table table, .schdule-table th, .schdule-table td, .schdule-table tr {
   border: solid 1px black;
@@ -12095,6 +12122,9 @@ main .videos-uploaded button:hover {
 }
 .schdule-table table {
   width: 94vw;
+}
+.schdule-table table thead {
+  background-color: #ffffff;
 }
 .schdule-table table td, .schdule-table table th {
   padding: 1vh 2vw;
@@ -13071,7 +13101,7 @@ body {
   flex-direction: column;
   padding: 10px 60px;
 }
-.login .login-body form input {
+.login .login-body form input, .login .login-body form select {
   width: 100%;
   margin-bottom: 30px;
   padding: 1vh 2vw;
@@ -13796,11 +13826,14 @@ body {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 20vw;
+    margin-left: 25vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
     cursor: pointer;
+  }
+  .dash .sidenav .students-drpdwn {
+    margin: 0 3vw;
   }
   .dash .sidenav-show {
     height: 120%;
@@ -14913,10 +14946,10 @@ body {
     order: 1;
   }
   .signup .signup-body form input:nth-child(2) {
-    order: 3;
+    order: 2;
   }
   .signup .signup-body form input:nth-child(3) {
-    order: 2;
+    order: 3;
   }
   .signup .signup-body form input:nth-child(4) {
     order: 4;
@@ -15481,7 +15514,7 @@ body {
     transform: translateY(0px);
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 40vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -15872,7 +15905,7 @@ body {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 40vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -16038,6 +16071,9 @@ body {
     left: 80vw;
   }
 
+  .dash-main .dash .sidenav .students-drpdwn {
+    margin: 0 5vw;
+  }
   .dash-main .dash .admin-dash .admin-main {
     display: flex;
     flex-direction: column;
@@ -16452,7 +16488,7 @@ body {
     margin-bottom: 1.5vh;
   }
 
-  .navbar .closebtn {
+  .navbar .nav .closebtn {
     margin-left: 45vw;
   }
   .navbar .navbar-brand .menu-bar .menu-icon {
@@ -16707,7 +16743,7 @@ body {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 50vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;
@@ -17559,7 +17595,7 @@ body {
   }
   .dash .sidenav .closebtn {
     display: block;
-    margin-left: 35vw;
+    margin-left: 55vw;
     font-size: 48px;
     font-weight: 600;
     color: #0551a7;

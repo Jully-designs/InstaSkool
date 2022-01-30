@@ -175,11 +175,14 @@
         }
     }
 }
+.schedule-body{
+    background: linear-gradient(180deg, rgba(45, 109, 181, 0.19) -14.77%, rgba(45, 109, 181, 0) 100%), url(/Images/Pattern.png);
+}
 .table-header{
     background-color: $pryColor;
     padding: 3vh 3vw;
     margin-bottom: 3vh;
-    width: 94vw;
+    width: 78vw;
     p{
         font-size: 20px;
         font-weight: 600;
@@ -187,13 +190,13 @@
     }
 }
 .schdule-table{
-    margin: 3vh 3vw;
+    margin: 3vh 2vw;
     .dataTables_wrapper {
         .dataTables_length select{
-            margin-bottom: 2vh;
+            margin: 1vh 0 4vh 0;
         }
         .dataTables_filter{
-            margin-bottom: 2vh;
+            margin: 1vh 0 4vh 0;
         }
     }
     table,th,td,tr{
@@ -202,6 +205,9 @@
     }
     table{
         width: 94vw;
+        thead{
+            background-color: #ffffff;
+        }
         td,th{
             padding: 1vh 2vw;
         }

@@ -869,11 +869,14 @@
             display: none;
             .closebtn{
                 display: block;
-                margin-left: 20vw;
+                margin-left: 25vw;
                 font-size: 48px;
                 font-weight: 600;
                 color: rgba(5, 81, 167, 1);
                 cursor: pointer;
+            }
+            .students-drpdwn{
+                margin: 0 3vw;
             }
         }
         .sidenav-show{
@@ -2100,10 +2103,10 @@
                     order: 1;
                 }
                 input:nth-child(2){
-                    order: 3;
+                    order: 2;
                 }
                 input:nth-child(3){
-                    order: 2;
+                    order: 3;
                 }
                 input:nth-child(4){
                     order: 4;
@@ -2683,8 +2686,10 @@
         }
     }
     .navbar{
-        .closebtn{
-            margin-left: 40vw;
+        .nav{
+            .closebtn{
+                margin-left: 40vw;
+            }
         }
         .navbar-brand{
             .menu-bar{
@@ -3095,7 +3100,7 @@
             display: none;
             .closebtn{
                 display: block;
-                margin-left: 35vw;
+                margin-left: 40vw;
                 font-size: 48px;
                 font-weight: 600;
                 color: rgba(5, 81, 167, 1);
@@ -3286,6 +3291,11 @@
     //Admin-page
     .dash-main{
         .dash{
+            .sidenav{
+                .students-drpdwn{
+                    margin: 0 5vw;
+                }
+            }
             .admin-dash{
                 .admin-main{
                     @include columnDisplayFlex;
@@ -3725,8 +3735,10 @@
         }
     }
     .navbar{
-        .closebtn{
-            margin-left: 45vw;
+        .nav{
+            .closebtn{
+                margin-left: 45vw;
+            }
         }
         .navbar-brand{
             .menu-bar{
@@ -4000,7 +4012,7 @@
             display: none;
             .closebtn{
                 display: block;
-                margin-left: 35vw;
+                margin-left: 50vw;
                 font-size: 48px;
                 font-weight: 600;
                 color: rgba(5, 81, 167, 1);
@@ -4929,7 +4941,7 @@
             display: none;
             .closebtn{
                 display: block;
-                margin-left: 35vw;
+                margin-left: 55vw;
                 font-size: 48px;
                 font-weight: 600;
                 color: rgba(5, 81, 167, 1);

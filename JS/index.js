@@ -88,3 +88,6 @@ function shwAdmin () {
   shwProfile.classList.toggle("shw-admin-profile");
 }
 
+function showScheduleList() {
+  document.getElementById("stdnt-drpdwn").classList.toggle("show");
+}
