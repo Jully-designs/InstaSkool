@@ -1406,6 +1406,9 @@
             width: 60vw;
         }
     }
+    .table-header{
+        width: 95vw;
+    }
 }
 @media screen and (max-width: 600px){
     .onboarding-nav{
@@ -3648,6 +3651,9 @@
         button{
             width: 70vw;
         }
+    }
+    .table-header{
+        width: 95vw;
     }
 }
 @media screen and (max-width: 375px) {

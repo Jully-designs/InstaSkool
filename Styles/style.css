@@ -1970,6 +1970,10 @@ footer .footer .copyright {
   .schedule-form button {
     width: 60vw;
   }
+
+  .table-header {
+    width: 95vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .onboarding-nav {
@@ -4104,6 +4108,10 @@ footer .footer .copyright {
   }
   .schedule-form button {
     width: 70vw;
+  }
+
+  .table-header {
+    width: 95vw;
   }
 }
 @media screen and (max-width: 375px) {
@@ -7742,6 +7750,10 @@ footer .footer .copyright {
   .schedule-form button {
     width: 60vw;
   }
+
+  .table-header {
+    width: 95vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .onboarding-nav {
@@ -9876,6 +9888,10 @@ footer .footer .copyright {
   }
   .schedule-form button {
     width: 70vw;
+  }
+
+  .table-header {
+    width: 95vw;
   }
 }
 @media screen and (max-width: 375px) {
@@ -12099,7 +12115,7 @@ main .videos-uploaded button:hover {
   background-color: #0551A7;
   padding: 3vh 3vw;
   margin-bottom: 3vh;
-  width: 78vw;
+  width: 75vw;
 }
 .table-header p {
   font-size: 20px;
@@ -14281,6 +14297,10 @@ body {
   .schedule-form button {
     width: 60vw;
   }
+
+  .table-header {
+    width: 95vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .onboarding-nav {
@@ -16415,6 +16435,10 @@ body {
   }
   .schedule-form button {
     width: 70vw;
+  }
+
+  .table-header {
+    width: 95vw;
   }
 }
 @media screen and (max-width: 375px) {
