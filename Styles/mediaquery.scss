@@ -2890,6 +2890,11 @@
             font-size: 18px;
             font-weight: 600;
         }
+        .coming-soon{
+            width: 80%;
+            height: 60%;
+            margin: 5vh 10vw;
+        }
         .slideshow{
             .carousel{
                 figure{
@@ -3894,6 +3899,10 @@
                 border-radius: 50%;
                 display: inline-block;
             }
+        }
+        .coming-soon{
+            // width: 50vw;
+            margin: 7vh 5vw;
         }
     }
     .payment{

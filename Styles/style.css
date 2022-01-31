@@ -580,6 +580,11 @@ main {
   font-size: 24px;
   font-weight: 600;
 }
+.tutors .coming-soon {
+  width: 60%;
+  height: 40%;
+  margin: 5vh 20vw;
+}
 .tutors .slideshow {
   display: flex;
   flex-direction: row;
@@ -3401,6 +3406,11 @@ footer .footer .copyright {
     font-size: 18px;
     font-weight: 600;
   }
+  .tutors .coming-soon {
+    width: 80%;
+    height: 60%;
+    margin: 5vh 10vw;
+  }
   .tutors .slideshow .carousel figure {
     padding: 0 10px;
   }
@@ -4321,6 +4331,9 @@ footer .footer .copyright {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+  }
+  .tutors .coming-soon {
+    margin: 7vh 5vw;
   }
 
   .payment .payment-options .plan {
@@ -9181,6 +9194,11 @@ footer .footer .copyright {
     font-size: 18px;
     font-weight: 600;
   }
+  .tutors .coming-soon {
+    width: 80%;
+    height: 60%;
+    margin: 5vh 10vw;
+  }
   .tutors .slideshow .carousel figure {
     padding: 0 10px;
   }
@@ -10101,6 +10119,9 @@ footer .footer .copyright {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+  }
+  .tutors .coming-soon {
+    margin: 7vh 5vw;
   }
 
   .payment .payment-options .plan {
@@ -15728,6 +15749,11 @@ body {
     font-size: 18px;
     font-weight: 600;
   }
+  .tutors .coming-soon {
+    width: 80%;
+    height: 60%;
+    margin: 5vh 10vw;
+  }
   .tutors .slideshow .carousel figure {
     padding: 0 10px;
   }
@@ -16648,6 +16674,9 @@ body {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+  }
+  .tutors .coming-soon {
+    margin: 7vh 5vw;
   }
 
   .payment .payment-options .plan {
